@@ -1,0 +1,27 @@
+{
+    "name": "Fighting back",
+    "icon": "immersiveengineering:revolver",
+    "category": "patchouli:preindustrial",
+    "pages": [
+        {
+            "type": "text",
+            "text": "   You will need some decent weapons to fend off the parasitic hordes. You can make a few decent weapons without the use of industrial machines. The revolver and makeshift rifle can be made within a crafting table."
+        },
+        {
+            "type": "crafting",
+            "recipe": "immersiveintelligence:tools/weapon/revolver",
+            "title": "Revolver",
+            "text": "   The revolver holds more bullets, but takes a while to reload without a speedloader, which requires steel. You can shift-right click to open the revolvers inventory and add ammo."
+        },
+        {
+            "type": "crafting",
+            "recipe": "immersiveintelligence:tools/weapon/handmade_rifle",
+            "title": "Makeshift rifle",
+            "text": "   The makeshift rifle can be reloaded faster, but requires its own special ammo and has less total ammo. It is reloaded by pressing R."
+        },
+        {
+            "type": "text",
+            "text": "   Parasite hives can often appear in caves beneath your very feet. Even worse, these hives can create burrowing parasites that can come to the surface and attack you. Watch out for these underground bases!"
+        }
+    ]
+}

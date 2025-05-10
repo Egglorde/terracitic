@@ -1,0 +1,67 @@
+{
+    "name": "Building a spacecraft",
+    "icon": "advancedrocketry:advrocketmotor",
+    "category": "patchouli:starflightbasics",
+    "pages": [
+        {
+            "type": "text",
+            "text": "   You are going to need a rocket to get to space. Rockets require a few things in order to work properly. These are; $(br) $(li)Rockets, $(li)Fuel tanks, $(li)A seat, $(li)A guidance computer$(br2)   In addition to this you will need a linker to link you rocket to the fueler"
+        },
+        {
+            "type": "text",
+            "text": "   Rocket engines come in two types, Monopropellant and Bipropellant. Bipropellant engines require two separate fuel types, oxygen and hydrogen, while Monopropellant rockets use only rocket fuel. $(br2)     Each rocket engine requires a specific fuel type. Fuel tanks correspond to their engine type. Bipropellant engines also require oxidizer tanks (recipe in JEI)."
+        },
+        {
+            "type": "crafting",
+            "title": "Bipropellant Engines",
+            "recipe": "advancedrocketry:blockbipropellantfueltank",
+            "recipe2": "advancedrocketry:bipropellantengine"
+        },
+        {
+            "type": "crafting",
+            "title": "Monopropellant Engines",
+            "recipe": "advancedrocketry:blockfueltank",
+            "recipe2": "advancedrocketry:engine"
+        },
+        {
+            "type": "multiblock",
+            "name": "Chemical reactor",
+            "multiblock": {
+                "pattern": [
+                    [ "fof", " C "],
+                    [ "FOF", "P0P"]
+                ],
+                "mapping": {
+                    "P": "libvulpes:forgepowerinput",
+                    "0": "libvulpes:motor",
+                    "F": "libvulpes:hatch[varient=3]",
+                    "O": "libvulpes:hatch[varient=1]",
+                    "f": "libvulpes:hatch[varient=2]",
+                    "o": "libvulpes:hatch[varient=0]",
+                    "C": "advancedrocketry:chemicalreactor"
+                },
+                "symmetrical": false
+                },
+            "enable_visualize": true,
+            "text": "   Rocket fuel is made from oxygen and hydrogen in the Chemical reactor, seen above."
+        },
+        {
+            "type" : "crafting",
+            "title" : "Seat",
+            "recipe": "advancedrocketry:genericseat",
+            "text": "   The rocket seat is what allows you to pilot your rocket. You can get into it by right clicking your rocket one it is fully built."
+        },
+        {
+            "type" : "crafting",
+            "title" : "Guidance Computer",
+            "recipe": "advancedrocketry:guidancecomputer",
+            "text": "   The Guidance computer allows you to select a destination, it is also required for your rocket to build properly. It can program Planet ID chips with your destination. Shift right click to acess it's inventory when your rocket is built."
+        },
+        {
+            "type" : "crafting",
+            "title" : "Linker",
+            "recipe": "libvulpes:linker",
+            "text": "   Once your rocket is built, you will need to scan and build it in the Rocket asembling machine. Once the rocket is built, you must link it to the fueler with the linker above, shift right click the fueler, and then your rocket."
+        }
+    ]
+}

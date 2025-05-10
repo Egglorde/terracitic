@@ -1,0 +1,7 @@
+{
+    "name": "Terracitic guidebook",
+    "landing_text": "The world is under attack from parasites! It's up to you to escape the earth! $(br2) $(o) Keep in mind that Terracitic is VERY unfinished, please report any bugs you encounter (that are not parasites)",
+    "version": 1,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "use_resource_pack": false
+}

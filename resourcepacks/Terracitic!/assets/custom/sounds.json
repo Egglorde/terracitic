@@ -1,0 +1,14 @@
+{
+  "infested.enderman.awakens": {
+    "sounds": [
+      "custom:sim_enderman_awakens"]
+    },
+  "adapted.manducater.awakens": {
+    "sounds": [
+      "custom:ada_manducator_awakens"]
+    },
+  "adapted.summoner.awakens": {
+    "sounds": [
+      "custom:ada_summoner_awakens"]
+    }
+}
