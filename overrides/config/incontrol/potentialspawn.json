@@ -1,0 +1,30 @@
+[
+    {
+      "dimension": 2,
+      "mobs": [
+        {
+            "mob": "primitivemobs:brain_slime",
+            "weight": 500,
+            "groupcountmin": 3,
+            "groupcountmax": 5
+        },
+        {
+            "mob": "lycanitesmobs:yale",
+            "weight": 100,
+            "groupcountmin": 1,
+            "groupcountmax": 4
+        }
+      ]
+    },
+    {
+      "dimension": 0,
+      "mobs": [
+        {
+            "mob": "primitivemobs:mother_spider",
+            "weight": 80,
+            "groupcountmin": 3,
+            "groupcountmax": 5
+        }
+      ]
+    }
+]

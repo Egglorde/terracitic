@@ -1,0 +1,22 @@
+        <galaxy>
+            <star name="Sol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0" blackHole="false">
+                <planet name="Earth" customIcon="earthlike" DIMID="0">
+                    <planet name="Luna" customIcon="moon">
+                        <biomeIds>152,153,154</biomeIds>
+                        <oreGen>
+                            <ore block="rats:block_of_cheese" minHeight="20" maxHeight="80" clumpSize="16" chancePerChunk="64" />
+                        </oreGen>
+                        <gravitationalMultiplier>16</gravitationalMultiplier>
+                        <atmosphereDensity>0</atmosphereDensity>
+                    </planet>
+                    <planet name="Plaugespace" DIMID="3" customIcon="carbonworld">
+                        <isKnown>false</isKnown>
+                        <spawnable weight="500" groupMin="1" groupMax="1">abyssalcraft:blackhole</spawnable>
+                        <artifact>abyssalcraft:oc</artifact>
+                        <atmosphereDensity>210</atmosphereDensity>
+                        <gravitationalMultiplier>50</gravitationalMultiplier>
+                        <orbitalTheta>90</orbitalTheta>
+                    </planet>
+                </planet>
+            </star>
+        </galaxy>

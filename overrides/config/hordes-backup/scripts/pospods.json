@@ -1,0 +1,174 @@
+[
+    {
+        "function": "hordes:set_entity_y",
+		"value": "164",
+		"conditions": [{
+            "name": "hordes:entity_type",
+            "value": "srparasites:anc_pod"
+        },
+        {
+            "name": "hordes:comparison",
+            "value": {
+                "type": "int",
+                "operation": ">",
+                "value1": {
+                    "name": "hordes:player_pos",
+                    "value": "Y"
+                },
+                "value2": 64
+            }
+        }]
+    },{
+        "function": "hordes:set_entity_y",
+		"value": "175",
+		"conditions": [{
+            "name": "hordes:entity_type",
+            "value": "srparasites:anc_pod"
+        },
+        {
+            "name": "hordes:comparison",
+            "value": {
+                "type": "int",
+                "operation": ">",
+                "value1": {
+                    "name": "hordes:player_pos",
+                    "value": "Y"
+                },
+                "value2": 75
+            }
+        }]
+    },{
+        "function": "hordes:set_entity_y",
+		"value": "200",
+		"conditions": [{
+            "name": "hordes:entity_type",
+            "value": "srparasites:anc_pod"
+        },
+        {
+            "name": "hordes:comparison",
+            "value": {
+                "type": "int",
+                "operation": ">",
+                "value1": {
+                    "name": "hordes:player_pos",
+                    "value": "Y"
+                },
+                "value2": 100
+            }
+        }]
+    },{
+        "function": "hordes:set_entity_y",
+		"value": "225",
+		"conditions": [{
+            "name": "hordes:entity_type",
+            "value": "srparasites:anc_pod"
+        },
+        {
+            "name": "hordes:comparison",
+            "value": {
+                "type": "int",
+                "operation": ">",
+                "value1": {
+                    "name": "hordes:player_pos",
+                    "value": "Y"
+                },
+                "value2": 125
+            }
+        }]
+    },{
+        "function": "hordes:set_entity_y",
+		"value": "250",
+		"conditions": [{
+            "name": "hordes:entity_type",
+            "value": "srparasites:anc_pod"
+        },
+        {
+            "name": "hordes:comparison",
+            "value": {
+                "type": "int",
+                "operation": ">",
+                "value1": {
+                    "name": "hordes:player_pos",
+                    "value": "Y"
+                },
+                "value2": 150
+            }
+        }]
+    },{
+        "function": "hordes:set_entity_y",
+		"value": "275",
+		"conditions": [{
+            "name": "hordes:entity_type",
+            "value": "srparasites:anc_pod"
+        },
+        {
+            "name": "hordes:comparison",
+            "value": {
+                "type": "int",
+                "operation": ">",
+                "value1": {
+                    "name": "hordes:player_pos",
+                    "value": "Y"
+                },
+                "value2": 175
+            }
+        }]
+    },{
+        "function": "hordes:set_entity_y",
+		"value": "300",
+		"conditions": [{
+            "name": "hordes:entity_type",
+            "value": "srparasites:anc_pod"
+        },
+        {
+            "name": "hordes:comparison",
+            "value": {
+                "type": "int",
+                "operation": ">",
+                "value1": {
+                    "name": "hordes:player_pos",
+                    "value": "Y"
+                },
+                "value2": 200
+            }
+        }]
+    },{
+        "function": "hordes:set_entity_y",
+		"value": "325",
+		"conditions": [{
+            "name": "hordes:entity_type",
+            "value": "srparasites:anc_pod"
+        },
+        {
+            "name": "hordes:comparison",
+            "value": {
+                "type": "int",
+                "operation": ">",
+                "value1": {
+                    "name": "hordes:player_pos",
+                    "value": "Y"
+                },
+                "value2": 225
+            }
+        }]
+    },{
+        "function": "hordes:set_entity_y",
+		"value": "350",
+		"conditions": [{
+            "name": "hordes:entity_type",
+            "value": "srparasites:anc_pod"
+        },
+        {
+            "name": "hordes:comparison",
+            "value": {
+                "type": "int",
+                "operation": ">",
+                "value1": {
+                    "name": "hordes:player_pos",
+                    "value": "Y"
+                },
+                "value2": 250
+            }
+        }]
+    }
+]

@@ -1,0 +1,35 @@
+{
+    "name": "Dealing with radiation",
+    "icon": "hbm:radx",
+    "category": "patchouli:starflightbasics",
+    "pages": [
+        {
+            "type": "text",
+            "text": "   After spending a decent amount of time on the moon, you will start to experience radiation sickness. The ambient radiation in space is much higher than the overworld, so you are going to need a few things for an extended stay in space."
+        },
+        {
+            "type": "empty"
+        },
+        {
+            "type": "crafting",
+            "recipe": "hbm:radx",
+            "title": "Radiation prevention",
+            "text": "   Many say an ounce of prevention is worth a pound of cure, so we will start with prevention. Rad-X is a potent radiation repellent made from fluorine and coal dust (ground in a Crusher multiblock)."
+        },
+        {
+            "type": "text",
+            "text": "   You can also use armor to prevent radiation sickness. Some armors are Rad-resistant, but are not vacuum sealed. You can enchant any armor with the “Airtight seal” enchantment, and then mix it with a diamond in a Chemical reactor."
+        },
+        {
+            "type": "crafting",
+            "recipe": "hbm:radaway",
+            "recipe2": "strongradaway",
+            "title": "Curing radiation"
+        },
+        {
+            "type": "text",
+            "text": "   So, you got irradiated, happens to the best of us. If you contract radiation sickness, the best cure is Radaway, crafted by mixing a blood bag with pumpkin seeds and coal dust. You can further upgrade radaway with glowing mushrooms found in caves. $(br2)  IV bags, made of latex can be filled with blood by right clicking, or by putting them into a bottling machine filled with blood."
+        }
+        
+    ]
+}

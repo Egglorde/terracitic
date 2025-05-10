@@ -1,0 +1,303 @@
+[
+    {
+        "function": "hordes:set_spawntable",
+        "value": [
+            "hordes:bombing"
+        ],
+        "conditions": []
+    },{
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_spawntable",
+                "value": [
+                    "hordes:sim"
+                ],
+                "conditions": []
+            },{
+                "function": "hordes:set_start_message",
+                "value": "A shambling horde of the assimilated approaches! Prepare for battle!",
+                "conditions": []
+            }
+        ],
+        "conditions": [{
+            "name": "hordes:random",
+            "value": 0.7
+        }]
+    },{
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_spawntable",
+                "value": [
+                    "hordes:bugs"
+                ],
+                "conditions": []
+            },{
+                "function": "hordes:set_start_message",
+                "value": "The distan sound of skittering fills the air! Prepare for battle!",
+                "conditions": []
+            }
+        ],
+        "conditions": [{
+            "name": "hordes:random",
+            "value": 0.335
+        }]
+    },{
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_spawntable",
+                "value": [
+                    "hordes:cohortCrux"
+                ],
+                "conditions": []
+            },{
+                "function": "hordes:set_spawntable",
+                "value": [
+                    "hordes:cohortHeed"
+                ],
+                "conditions": [
+                    {
+                        "name": "hordes:random",
+                        "value": 0.1
+                    }
+                ]
+            },{
+                "function": "hordes:set_spawntable",
+                "value": [
+                    "hordes:cohortThrall"
+                ],
+                "conditions": [
+                    {
+                        "name": "hordes:random",
+                        "value": 0.1
+                    }
+                ]
+            },{
+                "function": "hordes:set_spawntable",
+                "value": [
+                    "hordes:cohortHerd"
+                ],
+                "conditions": [
+                    {
+                        "name": "hordes:random",
+                        "value": 0.1
+                    }
+                ]
+            },{
+                "function": "hordes:set_start_message",
+                "value": "A Crude cohort approaches! Prepare for battle!",
+                "conditions": []
+            }
+        ],
+        "conditions": [{
+            "name": "hordes:random",
+            "value": 0.25
+        },{
+            "name": "hordes:day",
+            "value": 30
+        }]
+    },{
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_spawntable",
+                "value": [
+                    "hordes:siegeCarrier"
+                ],
+                "conditions": []
+            },{
+                "function": "hordes:set_spawntable",
+                "value": [
+                    "hordes:siegeWraith"
+                ],
+                "conditions": [
+                    {
+                        "name": "hordes:random",
+                        "value": 0.1
+                    }
+                ]
+            },{
+                "function": "hordes:set_spawntable",
+                "value": [
+                    "hordes:siegeHaunter"
+                ],
+                "conditions": [
+                    {
+                        "name": "hordes:random",
+                        "value": 0.1
+                    }
+                ]
+            },{
+                "function": "hordes:set_spawntable",
+                "value": [
+                    "hordes:siegeBogle"
+                ],
+                "conditions": [
+                    {
+                        "name": "hordes:random",
+                        "value": 0.1
+                    }
+                ]
+            },{
+                "function": "hordes:set_start_message",
+                "value": "A monstorus shillouette appears over the horizon! Prepare for battle!",
+                "conditions": []
+            },{
+                "function": "hordes:set_spawn_duration",
+                "value": 1000,
+                "conditions": []
+            }
+        ],
+        "conditions": [{
+            "name": "hordes:random",
+            "value": 0.1
+        },{
+            "name": "hordes:day",
+            "value": 100
+        }]
+    },{
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_spawntable",
+                "value": [
+                    "hordes:bossEnderman"
+                ],
+                "conditions": []
+            },{
+                "function": "hordes:set_start_message",
+                "value": "The air warps around you...",
+                "conditions": []
+            },{
+                "function": "hordes:set_spawn_duration",
+                "value": 1000,
+                "conditions": []
+            },{
+                "function": "hordes:set_end_message",
+                "value": "",
+                "conditions": []
+            },{
+                "function": "hordes:set_spawn_amount",
+                "value": 1,
+                "conditions": []
+            },{
+                "function": "hordes:set_spawn_sound",
+                "value": "custom:infested.enderman.awakens",
+                "conditions": []
+            }
+        ],
+        "conditions": [{
+            "name": "hordes:random",
+            "value": 0.2
+        },{
+            "name": "hordes:day",
+            "value": 30
+        },{
+            "name": "hordes:not",
+            "value": {
+                "name": "gamestages:gamestage",
+                "value": "postenderman"
+            }
+        }]
+    },{
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_spawntable",
+                "value": [
+                    "hordes:bossManducater"
+                ],
+                "conditions": []
+            },{
+                "function": "hordes:set_start_message",
+                "value": "Something terrible approaches from beyond the veil...",
+                "conditions": []
+            },{
+                "function": "hordes:set_spawn_duration",
+                "value": 1000,
+                "conditions": []
+            },{
+                "function": "hordes:set_end_message",
+                "value": "",
+                "conditions": []
+            },{
+                "function": "hordes:set_spawn_amount",
+                "value": 1,
+                "conditions": []
+            },{
+                "function": "hordes:set_spawn_sound",
+                "value": "custom:adapted.manducater.awakens",
+                "conditions": []
+            }
+        ],
+        "conditions": [{
+            "name": "hordes:random",
+            "value": 0.25
+        },{
+            "name": "hordes:day",
+            "value": 15
+        },{
+            "name": "gamestages:gamestage",
+            "value": "postenderman"
+        },{
+            "name": "hordes:not",
+            "value": {
+                "name": "gamestages:gamestage",
+                "value": "postmanducater"
+            }
+        }]
+    },{
+        "function": "hordes:multiple",
+        "value": [
+            {
+                "function": "hordes:set_spawntable",
+                "value": [
+                    "hordes:bossSummoner"
+                ],
+                "conditions": []
+            },{
+                "function": "hordes:set_start_message",
+                "value": "You feel something breathing down you neck...",
+                "conditions": []
+            },{
+                "function": "hordes:set_spawn_duration",
+                "value": 1000,
+                "conditions": []
+            },{
+                "function": "hordes:set_spawn_duration",
+                "value": 1000,
+                "conditions": []
+            },{
+                "function": "hordes:set_end_message",
+                "value": "",
+                "conditions": []
+            },{
+                "function": "hordes:set_spawn_amount",
+                "value": 1,
+                "conditions": []
+            },{
+                "function": "hordes:set_spawn_sound",
+                "value": "custom:adapted.summoner.awakens",
+                "conditions": []
+            }
+        ],
+        "conditions": [{
+            "name": "hordes:random",
+            "value": 0.2
+        },{
+            "name": "hordes:day",
+            "value": 15
+        },{
+            "name": "gamestages:gamestage",
+            "value": "postenderman"
+        },{
+            "name": "hordes:not",
+            "value": {
+                "name": "gamestages:gamestage",
+                "value": "postsummoner"
+            }
+        }]
+    }
+]

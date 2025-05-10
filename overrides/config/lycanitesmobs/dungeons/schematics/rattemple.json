@@ -1,0 +1,141 @@
+{
+    "name": "rattemple",
+    "loadDefault": false,
+    "sectorCountMin": 20,
+    "sectorCountMax": 30,
+    "corridorToCorridorChance": 0.1,
+    "roomToRoomChance": 0.5,
+    "conditions": [
+      {
+        "type": "world",
+        "dimensionIds": [
+          2
+        ],
+        "dimensionListType": "whitelist"
+      }
+    ],
+    "placer": {
+        "type": "random",
+        "minY": 64,
+        "maxY": 80
+    },
+    "themes": [
+      "ratty"
+    ],
+    "entrances": [
+      "entrancebasic"
+    ],
+    "rooms": [
+      "roombasic",
+      "roombasicloot",
+      "roombasicmob",
+      "roombasicpit",
+      "roomdiamondpit"
+    ],
+    "corridors": [
+      "corridorbasic",
+      "corridorbasicdark",
+      "corridorbasicloot",
+      "corridorbasicmob"
+    ],
+    "stairs": [
+      "stairsbasic"
+    ],
+    "towers": [
+      "towerbasic"
+    ],
+    "bossRooms": [
+      "roombasicboss"
+    ],
+    "finishes": [
+      "roombasicfinish"
+    ],
+    "lootTables": [
+      {
+        "id": "minecraft:chests/simple_dungeon"
+      },
+      {
+        "id": "minecraft:chests/village_blacksmith",
+        "level": 2
+      },
+      {
+        "id": "minecraft:chests/nether_bridge",
+        "level": 3
+      },
+      {
+        "id": "minecraft:chests/abandoned_mineshaft",
+        "level": 4
+      },
+      {
+        "id": "minecraft:chests/stronghold_corridor",
+        "level": 5
+      },
+      {
+        "id": "minecraft:chests/stronghold_crossing",
+        "level": 6
+      }
+    ],
+    "mobSpawns": [
+      {
+        "mobId": "lycanitesmobs:aegis",
+        "weight": 5
+      },
+      {
+        "mobId": "lycanitesmobs:sylph",
+        "weight": 2
+      },
+      {
+        "mobId": "lycanitesmobs:wraamon",
+        "weight": 1,
+        "variant": 1,
+        "mobNameTag": "Forgotten Rat-Prophet",
+        "mobSizeScale": 6,
+        "naturalDespawn": "false",
+        "mobLevel": 100,
+        "spawnAsBoss": true,
+        "dungeonLevelMin": "0",
+        "dungeonLevelMax": 2,
+        "dungeonBoss": true,
+        "mobDrops": [
+          {
+            "item": "minecraft:diamond",
+            "minAmount": 3,
+            "amountMultiplier": false
+          },
+          {
+            "item": "lycanitesmobs:soulstone_beast",
+            "amountMultiplier": false,
+            "bonusAmount": false
+          }
+        ]
+      },
+      {
+        "mobId": "rats:marbled_cheese_golem",
+        "weight": 1,
+        "mobNameTag": "Ancient guardian",
+        "mobSizeScale": 1.8,
+        "naturalDespawn": "false",
+        "mobLevel": 125,
+        "spawnAsBoss": true,
+        "dungeonLevelMin": 3,
+        "dungeonLevelMax": 3,
+        "dungeonBoss": true,
+        "mobDrops": [
+          {
+            "item": "lycanitesmobs:astarothclaw",
+            "amountMultiplier": false
+          },
+          {
+            "item": "minecraft:diamond",
+            "minAmount": 10,
+            "amountMultiplier": false
+          },
+          {
+            "item": "lycanitesmobs:soulstone_aberration",
+            "amountMultiplier": false,
+            "bonusAmount": false
+          }
+        ]
+      }
+    ]
+  }

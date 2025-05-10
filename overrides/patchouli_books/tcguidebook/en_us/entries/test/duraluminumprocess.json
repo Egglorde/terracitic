@@ -1,0 +1,16 @@
+{
+    "name": "Duraluminum processing",
+    "icon": "immersiveintelligence:storage:4",
+    "category": "patchouli:industrial",
+    "pages": [
+        {
+            "type": "text",
+            "text": "     The parts required for rocketry are all made out of duraluminum alloy, made in the Electric arc furnace. For an arc furnace to produce 1 bar of duraluminum alloy, it requires 384000 units of flux, so you’ll need an adequate supply of power for any large amount of duraluminum."
+        },
+        {
+            "type": "spotlight",
+            "item": "libvulpes:structuremachine",
+            "text": "     Duraluminum is used to create Machine Structures for starship construction."
+        }
+    ]
+}

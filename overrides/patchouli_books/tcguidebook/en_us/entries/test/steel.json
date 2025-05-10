@@ -1,0 +1,11 @@
+{
+    "name": "The first step",
+    "icon": "immersiveengineering:stone_decoration:1",
+    "category": "patchouli:preindustrial",
+    "pages": [
+        {
+            "type": "text",
+            "text": "   Your objective for the pre-industrial stage is getting steel. For steel, you will need a coke oven and a blast furnace. Blast furnaces require blaze powder, while a coke furnace can be made using clay and sand products. Blast furnaces require coke to work, which is why you need a coke oven."
+        }
+    ]
+}

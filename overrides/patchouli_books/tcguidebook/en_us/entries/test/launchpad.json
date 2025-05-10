@@ -1,0 +1,75 @@
+{
+    "name": "Building a launchpad",
+    "icon": "advancedrocketry:launchpad",
+    "category": "patchouli:starflightbasics",
+    "pages": [
+        {
+            "type": "text",
+            "text": "   To get to space, you are obviously going to need a launchpad. Launchpads are required to build and fly a rocket into space."
+        },
+        {
+            "type": "empty"
+        },
+        {
+            "type": "crafting",
+            "recipe": "launchpad",
+            "title": "Launch Pad",
+            "text": "   The most important part of the launch pad is the pad itself! The pad must be at least 3x3 blocks for your rocket to land (depicted to the right). Launch pads need concrete to craft, if you do not know how to get it, read the Concrete Production entry."
+        },
+        {
+            "type": "multiblock",
+            "name": "Launch Pad example",
+            "multiblock": {
+                "pattern": [
+                    [ "LLL", "L0L", "LLL" ]
+                ],
+                "mapping": {
+                    "L": "advancedrocketry:launchpad",
+                    "0": "advancedrocketry:launchpad"
+                },
+                "symmetrical": true
+                },
+                "enable_visualize": false,
+                "text": "   The typical launch pad, at the minimum size requirement."
+        },
+        {
+            "type": "crafting",
+            "recipe": "advancedrocketry:structuretower",
+            "title": "Structure tower",
+            "text": "   The structure tower must be attached to the side of your launchpad, as depicted to the right. Make sure the structure tower is at least one block taller than your rocket to make sure the rocket is built correctly."
+        },
+        {
+            "type": "multiblock",
+            "name": "Tower example",
+            "multiblock": {
+                "pattern": [
+                    [ "    ", "   S", "    " ],
+                    [ "    ", "   S", "    " ],
+                    [ "    ", "   S", "    " ],
+                    [ "    ", "   S", "    " ],
+                    [ "LLL ", "L0LS", "LLL " ]
+                ],
+                "mapping": {
+                    "L": "advancedrocketry:launchpad",
+                    "0": "advancedrocketry:launchpad",
+                    "S": "advancedrocketry:structuretower"
+                },
+                "symmetrical": true
+                },
+                "enable_visualize": false,
+                "text": "   What your struture tower should look like. Note that the tower is attached to the side of the pad."
+        },
+        {
+            "type": "crafting",
+            "recipe": "rocketbuilder",
+            "title": "Rocket assembly machine",
+            "text": "   The rocket assembly machine can be placed anywhere adjacent to the launch pad. The rocket assembly machine does exactly what it says on the tin, as well as providing readouts of your rocket stats once built."
+        },
+        {
+            "type": "crafting",
+            "recipe": "advancedrocketry:fuelingstation",
+            "title": "Rocket fueler",
+            "text": "   The rocket fueler is needed to fuel your rocket once it is built. Rocket fuel or hydrogen can be pumped into the rocket fueler to fuel the rocket. It can be placed anywhere adjacent to the launch pad."
+        }
+    ]
+}

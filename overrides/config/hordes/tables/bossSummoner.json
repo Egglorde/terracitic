@@ -1,0 +1,10 @@
+[
+    {
+        "entity": "srparasites:ada_summoner",
+        "weight": 20,
+        "first_day": 0,
+        "last_day": 0,
+        "min_spawns": 1,
+        "max_spawns": 0
+    }
+]

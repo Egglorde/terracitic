@@ -1,0 +1,22 @@
+{
+	title: "No peeking!",
+	x: -4.0d,
+	y: -6.5d,
+	description: "Successfully find, summon or defend against an Adapted Manducater!",
+	tasks: [{
+		uid: "c3681497",
+		type: "kill",
+		icon: "srparasites:ada_manducater_drop",
+		entity: "srparasites:ada_manducater",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c7f1b243",
+		type: "command",
+		title: "One step closer to space!",
+		icon: "srparasites:ada_manducater_drop",
+		auto: "enabled",
+		command: "/gamestage silentadd @p postmanducater",
+		player_command: true
+	}]
+}

@@ -1,0 +1,5 @@
+[
+	"srparasites:anc_pod{Passengers:[{id:\"srparasites:rupter\",ForgeCaps:[{\"hordes:hordespawn\":-1}]}],Attributes:[{Name:\"generic.movementSpeed\", Base:0}]}-20-0-60",
+	"srparasites:anc_pod{Passengers:[{id:\"srparasites:gnat\",ForgeCaps:[{\"hordes:hordespawn\":-1}]}],Attributes:[{Name:\"generic.movementSpeed\", Base:0}]}-20-0-60"
+]
+

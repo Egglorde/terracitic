@@ -1,0 +1,11 @@
+[
+    {
+        "entity": "srparasites:ada_manducater",
+        "weight": 20,
+        "first_day": 0,
+        "last_day": 0,
+        "min_spawns": 1,
+        "max_spawns": 0,
+        "nbt": "{ActiveEffects:[{Id:14,Amplifier:0,Duration:1000}]}"
+    }
+]

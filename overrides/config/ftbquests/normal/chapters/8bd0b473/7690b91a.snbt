@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "9c9ae601",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

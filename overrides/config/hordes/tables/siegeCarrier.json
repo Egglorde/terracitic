@@ -1,0 +1,16 @@
+[   
+    {
+    	"entity": "srparasites:carrier_colony",
+    	"weight": 20,
+    	"first_day": 0,
+    	"last_day": 0,
+    	"min_spawns": 1,
+    	"max_spawns": 1
+    },
+    "srparasites:carrier_heavy-20-0-0",
+    "srparasites:carrier_light-30-0-0",
+    "srparasites:grunt-50-0-0",
+    "srparasites:marauder-5-0-0",
+    "srparasites:ada_bolster-10-0-0",
+    "srparasites:ada_summoner-10-0-0"
+]

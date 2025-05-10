@@ -1,0 +1,67 @@
+[
+    {
+        "dimension": 2,
+        "mob": "primitivemobs:brain_slime",
+        "biome": "Lunar Forest",
+        "seesky": true,
+        "maxcount": {
+            "amount": 20,
+            "perplayer": true,
+            "hostile": true
+        },
+        "result": "allow"
+    },
+    {
+        "dimension": 2,
+        "mob": "primitivemobs:brain_slime",
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "primitivemobs:brain_slime",
+        "result": "deny"
+    },
+    {
+        "dimension": 2,
+        "mob": "lycanitesmobs:yale",
+        "maxcount": {
+            "amount": 10
+        },
+        "biome": [
+            "Lunar Flats",
+            "Lunar Peaks"
+        ],
+        "seesky": true,
+        "result": "allow"
+    },
+    {
+        "dimension": 2,
+        "mob": "lycanitesmobs:yale",
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "primitivemobs:mother_spider",
+        "maxcount": {
+            "amount": 4
+        },
+        "block": "quark:biome_cobblestone@2",
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "primitivemobs:mother_spider",
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "primitivemobs:baby_spider",
+        "block": "quark:biome_cobblestone@2",
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "primitivemobs:baby_spider",
+        "result": "deny"
+    }
+]

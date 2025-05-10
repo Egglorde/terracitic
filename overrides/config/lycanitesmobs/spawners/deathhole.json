@@ -1,0 +1,49 @@
+{
+  "name": "deathhole",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": false,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreCollision": true,
+  "ignoreLightLevel": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "conditions": [
+    {
+      "type": "player"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "kill",
+      "chance": 1,
+      "entityTypesListType": "blacklist",
+      "entityIds": [
+        "lycanitesmobs:spectre"
+      ],
+      "entityIdsListType": "whitelist"
+    }
+  ],
+  "locations": [
+    {
+      "type": "base",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        0,
+        0,
+        0
+      ],
+      "sorting": "random"
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "abyssalcraft:blackhole"
+    }
+  ]
+}

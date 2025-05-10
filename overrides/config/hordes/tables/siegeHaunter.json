@@ -1,0 +1,16 @@
+[   
+    {
+    	"entity": "srparasites:haunter",
+    	"weight": 20,
+    	"first_day": 0,
+    	"last_day": 0,
+    	"min_spawns": 1,
+    	"max_spawns": 1
+    },
+    "srparasites:hi_golem-20-0-0",
+    "srparasites:pri_longarms-30-0-0",
+    "srparasites:grunt-50-0-0",
+    "srparasites:marauder-5-0-0",
+    "srparasites:ada_longarms-10-0-0",
+    "srparasites:ada_reeker-10-0-0"
+]

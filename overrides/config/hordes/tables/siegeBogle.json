@@ -1,0 +1,16 @@
+[   
+    {
+    	"entity": "srparasites:bogle",
+    	"weight": 20,
+    	"first_day": 0,
+    	"last_day": 0,
+    	"min_spawns": 1,
+    	"max_spawns": 1
+    },
+    "srparasites:overseer-10-0-0",
+    "srparasites:vigilante-15-0-0",
+    "srparasites:grunt-50-0-0",
+    "srparasites:marauder-5-0-0",
+    "srparasites:fer_human-30-0-0",
+    "srparasites:ada_manducater-10-0-0"
+]

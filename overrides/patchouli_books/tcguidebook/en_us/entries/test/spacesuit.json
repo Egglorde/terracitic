@@ -1,0 +1,40 @@
+{
+    "name": "Making a Space suit",
+    "icon": "advancedrocketry:spacehelmet",
+    "category": "patchouli:starflightbasics",
+    "pages": [
+        {
+            "type": "text",
+            "text": "   If you are trying to escape to the moon, you will have to survive on the moon. You are going to need a spacesuit to last more than 5 seconds on the lunar surface. Luckily the spacesuit does not require all that many materials."
+        },
+        {
+            "type": "crafting",
+            "recipe": "advancedrocketry:spacehelmet",
+            "recipe2": "advancedrocketry:spacechestplate",
+            "title": "Space suit"
+        },
+        {
+            "type": "crafting",
+            "recipe": "advancedrocketry:spaceleggings",
+            "recipe2": "advancedrocketry:spaceboots",
+            "title": "Space suit"
+        },
+        {
+            "type": "crafting",
+            "recipe": "advancedrocketry:suitworkstation",
+            "text": "   The spacesuit can be upgraded at the suit workstation. You will need to create some pressure tanks to contain oxygen, which go into the chestplate. Then, the spacesuit can be filled by standing at a gas charge pad supplied with oxygen."
+        },
+        {
+            "type": "crafting",
+            "recipe": "lowpress",
+            "recipe2": "midpress",
+            "title": "Pressure tanks"
+        },
+        {
+            "type": "crafting",
+            "recipe": "highpress",
+            "recipe2": "Shighpress",
+            "title": "Pressure tanks"
+        }
+    ]
+}

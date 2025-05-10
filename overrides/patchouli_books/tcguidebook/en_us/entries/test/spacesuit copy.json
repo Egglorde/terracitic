@@ -1,0 +1,50 @@
+{
+    "name": "Advanced circuits",
+    "icon": "advancedrocketry:ic:3",
+    "category": "patchouli:industrial",
+    "pages": [
+        {
+            "type": "text",
+            "text": "   To get advanced circuitry, you will need a precision assembler. Precision assemblers are already required to make circuit components, but more work must be done in order to get the circuits required for space travel. Assembly schemes are required to create things in the precision assembler. The assembly schemes for Advanced circuits are crafted from pieces of defeated parasites."
+        },
+        {
+            "type": "empty"
+        },
+        {
+            "type": "crafting",
+            "recipe": "AssemblyItem",
+            "text": "   Obtaining an Item IO Assembly scheme requires defeating a Manducater. Manducaters are fast and aggressive parasites. Their adapted version has the ability to go invisible and attack when unexpected.",
+            "title": "Item IO assembly scheme"
+        },
+        {
+            "type": "entity",
+            "entity": "srparasites:pri_manducater",
+            "name" : "Manducater (Primitive)",
+            "scale": "0.5"
+        },
+        {
+            "type": "crafting",
+            "recipe": "AssemblyLiquid",
+            "text": "      Obtaining a Liquid IO Assembly scheme requires defeating a Summoner. Summoners are capable of summoning other parasites to assist them in battle, and reviving parasites from the dead if their corpses are left unattended.",
+            "title": "Liquid IO assembly scheme"
+        },
+        {
+            "type": "entity",
+            "entity": "srparasites:pri_summoner",
+            "name" : "Summoner (Primitive)",
+            "scale": "0.5"
+        },
+        {
+            "type": "crafting",
+            "recipe": "AssemblyControl",
+            "text": "   Obtaining a Control Assembly scheme requires killing a Beckon. Beckons act as living beacons for the parasite horde. They start out small, but grow larger over time. They have a chance to appear whenever a parasite dies.",
+            "title": "Control assembly scheme"
+        },
+        {
+            "type": "entity",
+            "entity": "srparasites:beckon_si",
+            "name" : "Beckon (Stage 1)",
+            "scale": "0.5"
+        }
+    ]
+}

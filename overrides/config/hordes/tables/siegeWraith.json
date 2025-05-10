@@ -1,0 +1,16 @@
+[   
+    {
+    	"entity": "srparasites:wraith",
+    	"weight": 20,
+    	"first_day": 0,
+    	"last_day": 0,
+    	"min_spawns": 1,
+    	"max_spawns": 1
+    },
+    "srparasites:mangler-20-0-0",
+    "srparasites:vigilante-15-0-0",
+    "srparasites:grunt-50-0-0",
+    "srparasites:marauder-5-0-0",
+    "srparasites:ada_yelloweye-10-0-0",
+    "srparasites:ada_manducater-10-0-0"
+]

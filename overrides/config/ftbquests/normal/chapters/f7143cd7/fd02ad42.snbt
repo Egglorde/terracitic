@@ -1,0 +1,21 @@
+{
+	disable_toast: true,
+	x: -5.0d,
+	y: -5.0d,
+	tasks: [{
+		uid: "bdc73d7d",
+		type: "dimension",
+		dim: 0
+	}],
+	rewards: [{
+		uid: "58069e4e",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:tcguidebook"
+			}
+		}
+	}]
+}

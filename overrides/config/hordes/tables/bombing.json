@@ -1,0 +1,17 @@
+[
+    "srparasites:carrier_flying-20-0-0",
+    {
+        "entity": "srparasites:bomber_heavy",
+        "weight": 20,
+        "first_day": 80,
+        "last_day": 0,
+        "min_spawns": 1,
+        "max_spawns": 1
+    },
+    "srparasites:bomber_heavy{Health:50,Attributes:[{Name:\"generic.maxHealth\",Base:50}]}-1-70-0",
+    "srparasites:bomber_light-30-50-0",
+    "srparasites:pri_yelloweye-40-0-50",
+    "srparasites:ada_yelloweye-20-30-0",
+    "srparasites:overseer-10-70-0",
+    "srparasites:pri_vermin-10-20-70"
+]

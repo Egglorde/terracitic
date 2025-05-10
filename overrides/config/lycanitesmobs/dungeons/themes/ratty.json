@@ -1,0 +1,82 @@
+{
+    "name": "ratty",
+    "loadDefault": true,
+    "floorPattern": "random",
+    "wallPattern": "random",
+    "ceilingPattern": "random",
+    "floorBlocks": [
+      {
+        "blockId": "rats:marbled_cheese",
+        "weight": 8
+      },
+      {
+        "blockId": "rats:marbled_cheese_brick_cracked",
+        "weight": 2
+      },
+      {
+        "blockId": "rats:marbled_cheese_brick_chiseled",
+        "weight": 0
+      }
+    ],
+    "wallBlocks": [
+      {
+        "blockId": "rats:marbled_cheese_brick",
+        "weight": 8
+      },
+      {
+        "blockId": "rats:marbled_cheese_raw",
+        "weight": 2
+      },
+      {
+        "blockId": "rats:marbled_cheese_pillar",
+        "weight": 0
+      }
+    ],
+    "ceilingBlocks": [
+      {
+        "blockId": "rats:marbled_cheese_raw",
+        "weight": 8
+      },
+      {
+        "blockId": "rats:marbled_cheese_pillar",
+        "weight": 2
+      }
+    ],
+    "lightBlocks": [
+      {
+        "blockId": "rats:marbled_cheese_golem_core",
+        "weight": 8
+      }
+    ],
+    "airBlocks": [
+      {
+        "blockId": "minecraft:air",
+        "weight": 8
+      }
+    ],
+    "torchBlocks": [],
+    "stairBlocks": [
+      {
+        "blockId": "rats:marbled_cheese_stairs",
+        "weight": 8
+      },
+      {
+        "blockId": "rats:marbled_cheese_stairs",
+        "weight": 8
+      },
+      {
+        "blockId": "rats:marbled_cheese_stairs",
+        "weight": 8
+      }
+    ],
+    "pitBlocks": [
+      {
+        "blockId": "lycanitesmobs:shadowfire",
+        "weight": 8
+      },
+      {
+        "blockId": "lycanitesmobs:poison",
+        "weight": 8
+      }
+    ]
+  }

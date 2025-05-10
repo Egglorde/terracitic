@@ -1,0 +1,13 @@
+[
+    {
+        "entity": "srparasites:heed{Health:50,Attributes:[{Name:\"generic.maxHealth\",Base:50}]}",
+        "weight": 20,
+        "first_day": 0,
+        "last_day": 0,
+        "min_spawns": 1,
+        "max_spawns": 1
+    },
+    "srparasites:heed{Health:50,Attributes:[{Name:\"generic.maxHealth\",Base:50}]}-1-60-0",
+    "srparasites:incompleteform_medium{Health:30,Attributes:[{Name:\"generic.maxHealth\",Base:30}]}-10-0-0",
+    "srparasites:incompleteform_small{Attributes:[{Name:\"generic.movementSpeed\",Base:0.4f}]}-20-0-0"
+]

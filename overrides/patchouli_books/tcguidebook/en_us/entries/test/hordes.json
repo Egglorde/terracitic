@@ -1,0 +1,15 @@
+{
+    "name": "Hordes",
+    "icon": "srparasites:itemmobspawner_ferwolf",
+    "category": "patchouli:preindustrial",
+    "pages": [
+        {
+            "type": "text",
+            "text": "     Every 10 days, a large horde of parasites will appear on the horizon. The first few hordes will be few in number, but will grow in size quickly. The best weapon to start with is the revolver, as its ammo is cheap and doesn’t require any special alloys."
+        },
+        {
+            "type": "text",
+            "text": "     By day 20, some parasites will gain the ability to break blocks. It’s a good idea to get some harder blocks, like bricks or cobblestone. Every horde has a “theme,” which determines what types of parasites will appear in these hordes."
+        }
+    ]
+}
