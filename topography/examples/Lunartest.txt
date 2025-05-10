@@ -1,7 +1,0 @@
-addBiomes("biometweaker:lunar_peaks")
-addBiomes("biometweaker:lunar_flats")
-addBiomes("biometweaker:lunar_forest")
-
-
-overworld = new OverworldGenerator()
-addGenerator(overworld)

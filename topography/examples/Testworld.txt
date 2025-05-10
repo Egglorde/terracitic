@@ -1,7 +1,0 @@
-setSingleBiome("minecraft:void")
-
-layers = new LayerGenerator()
-layers.addLayer(0~0, <minecraft:bedrock>)
-layers.addLayer(1~60, <minecraft:dirt>)
-layers.addLayer(61~61, <minecraft:grass>)
-addGenerator(layers)
