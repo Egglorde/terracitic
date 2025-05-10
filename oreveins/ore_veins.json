@@ -1,0 +1,83 @@
+{
+  "Iron": {
+    "type": "curve",
+    "ore": [
+      {
+        "block": "minecraft:cobblestone",
+        "weight": 20
+      },
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 30
+      },
+      {
+        "block": "hbm:cluster_iron",
+        "weight": 10
+      },
+      {
+        "block": "minecraft:monster_egg",
+        "weight": 5,
+        "meta": 1
+      } 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 30,
+    "count": 2,
+    "density" : 800,
+    "radius" : 2
+  },
+  "Copper": {
+    "type": "curve",
+    "ore": [
+      {
+        "block": "minecraft:cobblestone",
+        "weight": 20
+      },
+      {
+        "block": "hbm:ore_copper",
+        "weight": 30
+      },
+      {
+        "block": "hbm:cluster_copper",
+        "weight": 5
+      },
+      {
+        "block": "minecraft:monster_egg",
+        "weight": 5,
+        "meta": 1
+      } 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 30,
+    "count": 2,
+    "density" : 800,
+    "radius" : 2
+  },
+  "Coal": {
+    "type": "curve",
+    "ore": [
+      {
+        "block": "minecraft:cobblestone",
+        "weight": 20
+      },
+      {
+        "block": "minecraft:coal_ore",
+        "weight": 30
+      },
+      {
+        "block": "minecraft:coal_block",
+        "weight": 5
+      },
+      {
+        "block": "minecraft:monster_egg",
+        "weight": 5,
+        "meta": 1
+      } 
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 40,
+    "count": 2,
+    "density" : 800,
+    "radius" : 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+	title: "Infested!",
+	x: -5.0d,
+	y: -6.0d,
+	description: "Face and defeat an Infested Enderman, the teleporting terror of the end!",
+	tasks: [{
+		uid: "f69a2919",
+		type: "kill",
+		icon: "contenttweaker:broken_pearl",
+		entity: "srparasites:sim_enderman",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "1416a1cb",
+		type: "command",
+		title: "One step closer to space!",
+		icon: "contenttweaker:broken_pearl",
+		auto: "enabled",
+		command: "/gamestage silentadd @p postenderman",
+		player_command: true
+	}]
+}

@@ -1,0 +1,27 @@
+//If this file is deleted, a new set of default configs will be generated.
+
+//Sets if the mod should print documentation.
+printDocumentation(false)
+
+//Sets the Topography WorldType as default
+setAsDefaultWorldType()
+
+overworldsafe = registerPreset("Safe world", "images/Overworld", "A world with no surface parasite biomes. The recommended way to play", "BIOMESOP")
+overworldsafe.registerDimension(0, "examples/OverworldSafe")
+overworldsafe.registerDimension(3, "examples/Sheild_world")
+
+overworldunsafe = registerPreset("Unsafe world", "images/Overworld", "A world pocked with parasitic biomes.", "BIOMESOP")
+overworldunsafe.registerDimension(0, "examples/OverworldUnsafe")
+overworldunsafe.registerDimension(3, "examples/Sheild_world")
+
+overworlddoomed = registerPreset("Doomed world", "images/Overworld", "A world fallen to the parasite menace.")
+overworlddoomed.registerDimension(0, "examples/OverworldDoomed")
+overworlddoomed.registerDimension(3, "examples/Sheild_world")
+
+overworlddoomed = registerPreset("Testing World", "images/Overworld", "A testing world for devs")
+overworlddoomed.registerDimension(0, "examples/Testworld")
+
+overworlddoomed = registerPreset("Lunar Testing World", "images/Overworld", "A testing world for devs")
+overworlddoomed.registerDimension(0, "examples/Lunartest")
+
+

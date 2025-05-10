@@ -1,0 +1,26 @@
+{
+    "rules": [
+        {
+            "match":{
+                "drops":{
+                    "drops":[
+                        "minecraft:glowstone_dust"
+                    ]
+                }
+            },
+            "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+            "drops":[
+                {
+                    "item":{
+                        "items": [
+                            "minecraft:glowstone"
+                        ],
+                        "quantity": {
+                            "fixed": 1
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
