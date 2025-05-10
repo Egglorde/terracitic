@@ -1,0 +1,13 @@
+Version 0.4.0B (incomplete changelog, not everything is listed)
+
+Added
+> Added demonic summoning rituals
+> Added Better with mods
+> Fully implemented blast furnace
+
+Changes
+> Modified Tinker's smeltery recipe
+> Changed most steel recipes to involve soulforged steel
+
+Fixes
+> None, still just as broken as always
