@@ -247,7 +247,11 @@ var RocketryCrafts = {
     [[<srparasites:lurecomponent3>, <srparasites:assimilated_flesh>, <ore:plateIron>],
     [<ore:obsidian>, <minecraft:book>, <srparasites:assimilated_flesh>],
     [<srparasites:lurecomponent3>, <srparasites:assimilated_flesh>, <ore:plateIron>]] : 
-    <abyssalcraft:necronomicon>.withTag({PotEnergy: 0.0 as float})
+    <abyssalcraft:necronomicon>.withTag({PotEnergy: 0.0 as float}),
+    [[<ore:plankWood>, <ore:blockIron>, <ore:plankWood>],
+    [<minecraft:stonebrick>, <ore:blockRedstone>, <minecraft:stonebrick>],
+    [<minecraft:stonebrick>, <ore:blockCopper>, <minecraft:stonebrick>]] : 
+    <minecraft:piston>
 } as IItemStack[IIngredient[][]];
     
 var MetalTypes = [

@@ -39,7 +39,19 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<betterwithmods:steel_block>, <
 //      Crucible based recipe
 mods.betterwithmods.Crucible.removeAll();
 mods.betterwithmods.Crucible.addStoked([<betterwithmods:material:17>*2, <quark:black_ash>*4, <quark:soul_powder>], [<betterwithmods:material:14>*2]);
-
+// Steel Casting rework
+//       non-SoulSteel casting removal
+mods.tconstruct.Casting.removeBasinRecipe(<immersiveengineering:storage:8>);
+mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:38>);
+mods.tconstruct.Casting.removeTableRecipe(<libvulpes:productgear:6>);
+mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:storage:8>);
+mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:8>);
+//       Soulsteel casting insertion
+mods.tconstruct.Casting.addBasinRecipe(<betterwithmods:steel_block>, <>, <liquid:steel>, 140);
+mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:51>, <tconstruct:cast_custom:3>, <liquid:steel>, 140);
+mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:48>, <tconstruct:cast_custom:4>, <liquid:steel>, 140);
+mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:14>, <tconstruct:cast_custom>, <liquid:steel>, 140);
+mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:30>, <tconstruct:cast_custom:1>, <liquid:steel>, 140);
 
 // Soulsteel Anvil recipes
 mods.betterwithmods.Anvil.addShapedFixed(<immersiveengineering:stone_decoration:1>*27, [
@@ -119,14 +131,7 @@ mods.abyssalcraft.SummonRitual.addRitual("summonBelphegor", 0, -1, 0 as float, f
 game.setLocalization("ac.ritual.summonBelphegor", "Summon Belphegor");
 game.setLocalization("ac.ritual.summonBelphegor.desc", "Summons a Belphegor, a low-level demon of hell.");
 
-// Steel Casting rework
-//       non-SoulSteel casting removal
-mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:38>);
-mods.tconstruct.Casting.removeTableRecipe(<libvulpes:productgear:6>);
-//       Soulsteel casting insertion
-mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:51>, <tconstruct:cast_custom:3>, <liquid:steel>, 140);
-mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:48>, <tconstruct:cast_custom:4>, <liquid:steel>, 140);
-mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:14>, <tconstruct:cast_custom>, <liquid:steel>, 140);
+
 
 
 
