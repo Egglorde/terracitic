@@ -89,7 +89,13 @@ var RemoveCraft = [
   <hbm:anvil_lead>,
   <hbm:anvil_steel>,
   <lycanitesmobs:demonstone>,
-  <minecraft:fire_charge>
+  <minecraft:fire_charge>,
+  <immersiveengineering:storage:8>,
+  <hbm:block_steel>,
+  <libvulpes:metal0:6>,
+  <lycanitesmobs:soulkey>,
+  <immersiveengineering:stone_decoration:1>,
+  <lycanitesmobs:soulkey>
 ] as IIngredient[];
 
 var BloodInputs = {

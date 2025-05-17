@@ -36,6 +36,7 @@ recipes.addShaped("torchesbutmore", <minecraft:torch>*8,
 //      Soulsteel production
 mods.immersiveengineering.BlastFurnace.addRecipe(<betterwithmods:material:14>, <ore:ingotIron>, 2000);
 mods.immersiveengineering.BlastFurnace.addRecipe(<betterwithmods:steel_block>, <ore:blockIron>, 4500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<variedcommodities:ingot_demonic>, <ore:ingotLead>, 4500);
 //      Crucible based recipe
 mods.betterwithmods.Crucible.removeAll();
 mods.betterwithmods.Crucible.addStoked([<betterwithmods:material:17>*2, <quark:black_ash>*4, <quark:soul_powder>], [<betterwithmods:material:14>*2]);
@@ -46,12 +47,14 @@ mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:38>);
 mods.tconstruct.Casting.removeTableRecipe(<libvulpes:productgear:6>);
 mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:storage:8>);
 mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:8>);
+mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:28>);
 //       Soulsteel casting insertion
-mods.tconstruct.Casting.addBasinRecipe(<betterwithmods:steel_block>, <>, <liquid:steel>, 140);
-mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:51>, <tconstruct:cast_custom:3>, <liquid:steel>, 140);
-mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:48>, <tconstruct:cast_custom:4>, <liquid:steel>, 140);
-mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:14>, <tconstruct:cast_custom>, <liquid:steel>, 140);
-mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:30>, <tconstruct:cast_custom:1>, <liquid:steel>, 140);
+mods.tconstruct.Casting.addBasinRecipe(<betterwithmods:steel_block>, <>, <liquid:steel>, 2304);
+mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:51>, <tconstruct:cast_custom:3>, <liquid:steel>, 144);
+mods.tconstruct.Casting.addTableRecipe(<hbm:meteorite_sword_seared>, <hbm:meteorite_sword>, <liquid:stone>, 1440);
+mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:48>, <tconstruct:cast_custom:4>, <liquid:steel>, 576);
+mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:14>, <tconstruct:cast_custom>, <liquid:steel>, 144);
+mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:30>, <tconstruct:cast_custom:1>, <liquid:steel>, 16);
 
 // Soulsteel Anvil recipes
 mods.betterwithmods.Anvil.addShapedFixed(<immersiveengineering:stone_decoration:1>*27, [
@@ -62,6 +65,38 @@ mods.betterwithmods.Anvil.addShapedFixed(<immersiveengineering:stone_decoration:
 ]);
 mods.betterwithmods.Anvil.addShapedFixed(<betterwithmods:material:17>, [
    [<betterwithmods:material:16>, <betterwithmods:material:16>, <betterwithmods:material:16>, <betterwithmods:material:16>]
+]);
+mods.betterwithmods.Anvil.addShapedFixed(<variedcommodities:demonic_head>, [
+   [<variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>],
+   [<variedcommodities:ingot_demonic>, null, null, <variedcommodities:ingot_demonic>],
+   [<variedcommodities:ingot_demonic>, null, null, <variedcommodities:ingot_demonic>]
+]);
+mods.betterwithmods.Anvil.addShapedFixed(<variedcommodities:demonic_chest>, [
+   [<variedcommodities:ingot_demonic>, null, null, <variedcommodities:ingot_demonic>],
+   [<variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>],
+   [<variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>],
+   [<variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>]
+]);
+mods.betterwithmods.Anvil.addShapedFixed(<variedcommodities:demonic_legs>, [
+   [<variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>, <variedcommodities:ingot_demonic>],
+   [<variedcommodities:ingot_demonic>, null, null, <variedcommodities:ingot_demonic>],
+   [<variedcommodities:ingot_demonic>, null, null, <variedcommodities:ingot_demonic>],
+   [<variedcommodities:ingot_demonic>, null, null, <variedcommodities:ingot_demonic>]
+]);
+mods.betterwithmods.Anvil.addShapedFixed(<variedcommodities:demonic_boots>, [
+   [<variedcommodities:ingot_demonic>, null, null, <variedcommodities:ingot_demonic>],
+   [<variedcommodities:ingot_demonic>, null, null, <variedcommodities:ingot_demonic>]
+]);
+mods.betterwithmods.Anvil.addShapedFixed(<variedcommodities:demonic_broadsword>, [
+   [null, <variedcommodities:ingot_demonic>, null, <variedcommodities:ingot_demonic>],
+   [<variedcommodities:ingot_demonic>, null, <variedcommodities:ingot_demonic>, null],
+   [null, <ore:logWood>, null, <variedcommodities:ingot_demonic>],
+   [<variedcommodities:ingot_demonic>, null, <variedcommodities:ingot_demonic>, null]
+]);
+mods.betterwithmods.Anvil.addShapedFixed(<lycanitesmobs:soulkey>, [
+   [null,null,<ore:ingotSteel>,null],
+   [<ore:ingotSteel>,<ore:ingotSteel>,<variedcommodities:heart>,<ore:ingotSteel>],
+   [<ore:ingotSteel>,null,<ore:ingotSteel>,null]
 ]);
 
 // Alternative recipes
@@ -79,6 +114,7 @@ mods.immersiveengineering.CokeOven.addRecipe(<hbm:coke>*4, 2000, <hbm:briquette_
 mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:stone_decoration:3>);
 mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);
 furnace.remove(<hbm:coke>);
+furnace.remove(<hbm:meteorite_sword_seared>);
 
 // Ingot grinding
 mods.betterwithmods.Mill.addRecipe([<ore:ingotAluminum>],[<immersiveengineering:metal:10>]);
@@ -145,9 +181,11 @@ mods.immersivetechnology.Boiler.addRecipe(<liquid:hotoil> * 10, <liquid:oil> * 1
 // Metorite Sword Tree
 mods.immersiveengineering.AlloySmelter.addRecipe(<hbm:ingot_meteorite>, <betterwithmods:material:45>, <hbm:fragment_meteorite>*10, 2000);
 Anvil.addItemHeat(<hbm:ingot_meteorite>, 1300, 1501);
+Anvil.addItemHeat(<hbm:meteorite_sword_seared>, 1300, 1501);
 Anvil.addItemHeat(<hbm:ingot_meteorite_forged>, 1300, 1501);
-Anvil.addRecipe(<hbm:ingot_meteorite>, <hbm:ingot_meteorite_forged>, 2, "hit_any", "punch_second_last", "draw_last");
-Anvil.addRecipe(<hbm:ingot_meteorite_forged>, <hbm:blade_meteorite>, 2, "hit_any", "draw_second_last", "draw_last");
+Anvil.addRecipe(<hbm:ingot_meteorite>*10, <hbm:ingot_meteorite_forged>, 2, "hit_any", "punch_second_last", "draw_last");
+Anvil.addRecipe(<hbm:meteorite_sword_seared>, <hbm:meteorite_sword_reforged>, 3, "hit_any", "draw_second_last", "draw_last");
+Anvil.addRecipe(<hbm:ingot_meteorite_forged>*10, <hbm:blade_meteorite>, 2, "hit_any", "draw_second_last", "draw_last");
 mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:spaghetti>, <betterwithmods:raw_pastry:3>, <hbm:stamp_desh_wire>, 2000);
 
 // Rupter Ramen Tree

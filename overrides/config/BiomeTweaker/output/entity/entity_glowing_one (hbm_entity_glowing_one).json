@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_glowing_one",
+  "Registry ID": "hbm:entity_glowing_one",
+  "Class": "com.hbm.entity.mob.EntityGlowingOne"
+}

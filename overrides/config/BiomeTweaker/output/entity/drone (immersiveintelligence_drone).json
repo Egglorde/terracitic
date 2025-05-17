@@ -1,0 +1,6 @@
+
+{
+  "Name": "drone",
+  "Registry ID": "immersiveintelligence:drone",
+  "Class": "pl.pabilo8.immersiveintelligence.common.entity.vehicle.EntityDrone"
+}
