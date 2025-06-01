@@ -6,6 +6,7 @@ import mods.TinkersForging.Anvil;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import mods.tconstruct.Casting;
+import mods.betterwithmods.HeatRegistry;
 
 val steel = <ore:ingotSteel>;
 steel.add(<betterwithmods:material:14>);
@@ -55,6 +56,9 @@ mods.tconstruct.Casting.addTableRecipe(<hbm:meteorite_sword_seared>, <hbm:meteor
 mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:48>, <tconstruct:cast_custom:4>, <liquid:steel>, 576);
 mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:14>, <tconstruct:cast_custom>, <liquid:steel>, 144);
 mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:30>, <tconstruct:cast_custom:1>, <liquid:steel>, 16);
+
+mods.MobStages.addStage("srp_phase_4", "srparasites:pri_vermin");
+mods.MobStages.addReplacement("srparasites:pri_vermin", "srparasites:pri_longarms");
 
 // Soulsteel Anvil recipes
 mods.betterwithmods.Anvil.addShapedFixed(<immersiveengineering:stone_decoration:1>*27, [
@@ -167,11 +171,19 @@ mods.abyssalcraft.SummonRitual.addRitual("summonBelphegor", 0, -1, 0 as float, f
 game.setLocalization("ac.ritual.summonBelphegor", "Summon Belphegor");
 game.setLocalization("ac.ritual.summonBelphegor.desc", "Summons a Belphegor, a low-level demon of hell.");
 
-
-
-
-
 mods.betterwithmods.Saw.add(<ore:stoneBasalt>, [<tconstruct:materials>*4]);
+
+// Artificial leather and such like
+mods.inworldcrafting.FluidToItem.transform(<immersiveintelligence:material:26>, <liquid:creosote>, [<immersiveintelligence:material:25>]);
+mods.inworldcrafting.FluidToItem.transform(<immersiveintelligence:material:25>, <liquid:water>, [<betterwithmods:material:22>]);
+mods.immersiveengineering.Crusher.addRecipe(<betterwithmods:material:33>, <betterwithmods:material:31>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<betterwithmods:material:7>, <minecraft:leather>, 2048);
+mods.immersiveengineering.BottlingMachine.addRecipe(<betterwithmods:material:6>, <betterwithmods:material:7>, <liquid:tannin>*5);
+mods.immersiveengineering.BottlingMachine.addRecipe(<betterwithmods:material:32>, <betterwithmods:material:33>, <liquid:tannin>*5);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:tannin>*50, <liquid:ethanol>*5, [<ore:barkWood>*2], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:tannin>*500, <liquid:ethanol>*50, [<ore:dung>], 2048);
+// <betterwithmods:bark>
+// CHANGE THIS!!!
 
 // Solid and Liquid fuel chain
 mods.immersiveintelligence.Coagulator.addRecipe(<srparasites:infestedore:4>*32, <liquid:oil>*1000, <liquid:blood>*200, 8000, 1000);
@@ -194,3 +206,14 @@ mods.ntm.Press.addRecipe(<tconstruct:spaghetti>,<betterwithmods:raw_pastry:3>, 3
 mods.betterwithmods.Cauldron.addUnstoked([<tconstruct:moms_spaghetti>, <srparasites:lurecomponent1>, <minecraft:bowl>, <ore:stickWood>*2, <ore:meatPork>, <tconstruct:edible:3>, <ore:egg>], [<srpmeshi:rupter_ramen>]);
 // Blood thing
 mods.tconstruct.Casting.addTableRecipe(<hbm:iv_blood>, <hbm:iv_empty>, <liquid:blood>, 250);
+
+// Campfire heat sources
+// All of these are neesecary to disable usage of out campfires for cooking
+mods.betterwithmods.HeatRegistry.addHeatSource(<futuremc:campfire:4>, 1);
+mods.betterwithmods.HeatRegistry.addHeatSource(<futuremc:campfire:5>, 1);
+mods.betterwithmods.HeatRegistry.addHeatSource(<futuremc:campfire:6>, 1);
+mods.betterwithmods.HeatRegistry.addHeatSource(<futuremc:campfire:7>, 1);
+mods.betterwithmods.HeatRegistry.addHeatSource(<futuremc:campfire:12>, 1);
+mods.betterwithmods.HeatRegistry.addHeatSource(<futuremc:campfire:13>, 1);
+mods.betterwithmods.HeatRegistry.addHeatSource(<futuremc:campfire:14>, 1);
+mods.betterwithmods.HeatRegistry.addHeatSource(<futuremc:campfire:15>, 1);

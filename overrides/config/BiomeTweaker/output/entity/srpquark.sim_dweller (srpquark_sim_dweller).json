@@ -2,5 +2,5 @@
 {
   "Name": "srpquark.sim_dweller",
   "Registry ID": "srpquark:sim_dweller",
-  "Class": "energon.srpquark.entity.Assimilated_Dweller"
+  "Class": "energon.srpquark.entity.EntitySimDweller"
 }

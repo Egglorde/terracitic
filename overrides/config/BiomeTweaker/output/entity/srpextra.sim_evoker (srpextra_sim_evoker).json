@@ -2,5 +2,5 @@
 {
   "Name": "srpextra.sim_evoker",
   "Registry ID": "srpextra:sim_evoker",
-  "Class": "energon.srpextra.entity.infected.Assimilated_Evoker"
+  "Class": "energon.srpextra.entity.infected.EntityAssimilatedEvoker"
 }

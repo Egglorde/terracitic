@@ -2,5 +2,5 @@
 {
   "Name": "srpextra.stalker",
   "Registry ID": "srpextra:stalker",
-  "Class": "energon.srpextra.entity.primitive.Primitive_Stalker"
+  "Class": "energon.srpextra.entity.primitive.EntityStalker"
 }

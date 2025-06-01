@@ -3,6 +3,8 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
+import mods.contenttweaker.Fluid;
+import mods.contenttweaker.Color;
 
 var zsItem = VanillaFactory.createItem("broken_pearl");
 zsItem.rarity = "rare";
@@ -20,6 +22,11 @@ var moldbuckshot = VanillaFactory.createItem("mold_buckshot");
 moldbuckshot.maxStackSize = 1;
 
 moldbuckshot.register();
+
+var tannin = VanillaFactory.createFluid("tannin", Color.fromHex("473113"));
+tannin.viscosity = 2000;
+tannin.register();
+
 
 var mold44 = VanillaFactory.createItem("mold_44");
 mold44.maxStackSize = 1;

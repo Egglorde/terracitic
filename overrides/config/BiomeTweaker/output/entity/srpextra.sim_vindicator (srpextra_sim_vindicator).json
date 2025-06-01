@@ -2,5 +2,5 @@
 {
   "Name": "srpextra.sim_vindicator",
   "Registry ID": "srpextra:sim_vindicator",
-  "Class": "energon.srpextra.entity.infected.Assimilated_Vindicator"
+  "Class": "energon.srpextra.entity.infected.EntityAssimilatedVindicator"
 }

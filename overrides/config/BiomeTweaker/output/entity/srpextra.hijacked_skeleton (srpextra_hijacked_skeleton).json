@@ -2,5 +2,5 @@
 {
   "Name": "srpextra.hijacked_skeleton",
   "Registry ID": "srpextra:hijacked_skeleton",
-  "Class": "energon.srpextra.entity.hijacked.Hijacked_Skeleton"
+  "Class": "energon.srpextra.entity.hijacked.EntityHijackedSkeleton"
 }

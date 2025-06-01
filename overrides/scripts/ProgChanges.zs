@@ -95,7 +95,8 @@ var RemoveCraft = [
   <libvulpes:metal0:6>,
   <lycanitesmobs:soulkey>,
   <immersiveengineering:stone_decoration:1>,
-  <lycanitesmobs:soulkey>
+  <lycanitesmobs:soulkey>,
+  <quark:soul_powder>
 ] as IIngredient[];
 
 var BloodInputs = {
@@ -257,7 +258,11 @@ var RocketryCrafts = {
     [[<ore:plankWood>, <ore:blockIron>, <ore:plankWood>],
     [<minecraft:stonebrick>, <ore:blockRedstone>, <minecraft:stonebrick>],
     [<minecraft:stonebrick>, <ore:blockCopper>, <minecraft:stonebrick>]] : 
-    <minecraft:piston>
+    <minecraft:piston>,
+    [
+    [<ore:stickSteel>, <ore:hideBelt>, <ore:stickSteel>],
+    [<ore:gearSoulforgedSteel>, <ore:plateSteel>, <ore:gearSoulforgedSteel>]] : 
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})
 } as IItemStack[IIngredient[][]];
     
 var MetalTypes = [

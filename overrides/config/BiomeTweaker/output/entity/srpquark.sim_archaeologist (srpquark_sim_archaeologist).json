@@ -2,5 +2,5 @@
 {
   "Name": "srpquark.sim_archaeologist",
   "Registry ID": "srpquark:sim_archaeologist",
-  "Class": "energon.srpquark.entity.Assimilated_Archaeologist"
+  "Class": "energon.srpquark.entity.EntitySimArchaeologist"
 }

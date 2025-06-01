@@ -1,4 +1,42 @@
-Version 0.4.0B (incomplete changelog, not everything is listed)
+Version 0.3.5
+
+Added
+> Industrial recipes for bulk quantities of some items
+> Low-tech recipes for Artificial leather
+> Tannin
+
+Changes
+> Updated Fantastic Lib, SrpMeshi & Set Bonus
+> Belts are now beltier (Crafting belts now requires the belt leather item instead of just leather)
+> Allowed campfires to be used in cauldron recipes
+
+Fixes
+> Quark recipe for soulpowder still existing
+> Fixed an issue related to HC strata and pickaxes (now the title makes 20% more sense)
+
+Version 0.3.4
+
+Added
+> Set bonuses
+> Better commodities
+> Demonic armor and weapons
+> Soulkey and Demonic Bosses
+> Soulplated armor
+
+Removed
+> All Better commodities recipes
+
+Changes
+> Made meteorite sword more expensive to make
+> Modified recipes for Seared and Reforged Meteorite swords
+> Modified Blast furnace texture to be animated
+
+Fixes
+> Fixed casting recipes related to steel
+> Fixed a softlock related to pistons
+> Fixed a duplication glitch involving steel and the tinker's smeltry
+
+Version 0.3.3B (incomplete changelog, not everything is listed)
 
 Added
 > Added demonic summoning rituals

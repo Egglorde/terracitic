@@ -2,5 +2,5 @@
 {
   "Name": "srpquark.hijacked_skeleton_pirate",
   "Registry ID": "srpquark:hijacked_skeleton_pirate",
-  "Class": "energon.srpquark.entity.Hijacked_Skeleton_Pirate"
+  "Class": "energon.srpquark.entity.EntityHijackedSkeleton_Pirate"
 }
