@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "FOREST",
     "RARE",
-    "WET",
     "JUNGLE",
-    "FOREST"
+    "WET",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -125,6 +125,12 @@
       "Weight": 300,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.jamieswhiteshirt.trumpetskeleton.common.entity.EntityTrumpetSkeleton",
+      "Weight": 25,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "betterwithmods.common.entity.EntityJungleSpider",

@@ -1,0 +1,19 @@
+{
+	title: "Filtered hopper",
+	x: -5.0d,
+	y: -3.5d,
+	shape: "gear",
+	text: [
+		"The filtered hopper is used to siphon hellfire dust from netherrack obtained from Belphegors."
+	],
+	dependencies: [
+		"134f9c12"
+	],
+	tasks: [{
+		uid: "df240b5b",
+		type: "item",
+		items: [{
+			item: "betterwithmods:single_machine 1 2"
+		}]
+	}]
+}

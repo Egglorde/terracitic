@@ -1,0 +1,34 @@
+{
+	title: "Cauldron",
+	icon: "betterwithmods:cooking_pot 1 1",
+	x: -3.0d,
+	y: -6.5d,
+	description: "Toil and Trouble",
+	text: [
+		"The cauldron is used in the production of tanned leather. It can also be used to make various soups, the ingredients for which have been lovingly provided by the Soulace corporation. However, in order to cookin anything, you'll need a heat source under it."
+	],
+	tasks: [{
+		uid: "ccbbca81",
+		type: "item",
+		items: [{
+			item: "betterwithmods:cooking_pot 1 1"
+		}]
+	},
+	{
+		uid: "04cfb9fb",
+		type: "item",
+		items: [{
+			item: "futuremc:campfire"
+		}]
+	}],
+	rewards: [{
+		uid: "f4b61012",
+		type: "item",
+		item: "minecraft:milk_bucket"
+	},
+	{
+		uid: "eeb4c590",
+		type: "item",
+		item: "minecraft:bowl"
+	}]
+}

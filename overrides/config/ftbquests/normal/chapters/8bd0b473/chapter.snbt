@@ -1,12 +1,12 @@
 {
 	title: "First age",
 	icon: {
-		id: "abyssalcraft:necronomicon",
+		id: "abyssalcraft:tieredenergypedestal",
 		tag: {
-			PotEnergy: 0.0f
+			PotEnergy: 7500.0f
 		}
 	},
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "circle"
 }

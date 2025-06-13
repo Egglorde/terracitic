@@ -25,6 +25,7 @@ minecraft:chests/abandoned_mineshaft
 minecraft:entities/ghast
 minecraft:entities/zombie
 abyssalcraft:entities/omothol_ghoul
+trumpetskeleton:entities/trumpet_skeleton
 abyssalcraft:entities/lesser_shadow_shoggoth
 minecraft:entities/sheep/silver
 abyssalcraft:entities/evil_pig

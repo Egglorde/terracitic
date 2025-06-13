@@ -1,0 +1,34 @@
+{
+	title: "The Forge",
+	icon: "tconstruct:smeltery_controller",
+	x: -3.5d,
+	y: -3.5d,
+	text: [
+		"The smeltery will allow you to create obsidian blocks and cast tools without the useage of an anvil. It requires lava to run."
+	],
+	dependencies: [
+		"fe67fef7",
+		"134f9c12"
+	],
+	tasks: [{
+		uid: "b1e47eaa",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "6ee60406",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "6c73ff75",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	}]
+}

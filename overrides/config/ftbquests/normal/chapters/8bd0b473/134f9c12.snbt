@@ -1,0 +1,23 @@
+{
+	title: "Saw",
+	icon: "betterwithmods:saw",
+	x: -3.5d,
+	y: -5.5d,
+	shape: "gear",
+	description: "Would you like to play a game?",
+	text: [
+		"The saw is neescary for cutting durable blocks into bricks. It needs to be powered by axle, a hand crank will not work."
+	],
+	dependencies: [
+		"a942c0ab",
+		"d202c1b9",
+		"a210d4b7"
+	],
+	tasks: [{
+		uid: "39d96320",
+		type: "item",
+		items: [{
+			item: "betterwithmods:saw"
+		}]
+	}]
+}

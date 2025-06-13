@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "SNOWY",
     "COLD",
-    "WASTELAND"
+    "WASTELAND",
+    "SNOWY"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
@@ -109,6 +109,12 @@
       "Weight": 300,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.jamieswhiteshirt.trumpetskeleton.common.entity.EntityTrumpetSkeleton",
+      "Weight": 5,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",

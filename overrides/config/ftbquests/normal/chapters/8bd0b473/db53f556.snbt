@@ -1,0 +1,19 @@
+{
+	title: "Crucible",
+	x: -6.0d,
+	y: -0.5d,
+	shape: "gear",
+	text: [
+		"The crucible is used to create soulsteel. It is fired at a stoked kiln multiblock."
+	],
+	dependencies: [
+		"9eca0922"
+	],
+	tasks: [{
+		uid: "42620bdd",
+		type: "item",
+		items: [{
+			item: "betterwithmods:cooking_pot"
+		}]
+	}]
+}

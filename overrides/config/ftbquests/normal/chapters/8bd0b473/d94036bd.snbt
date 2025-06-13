@@ -1,0 +1,17 @@
+{
+	title: "Hemp",
+	x: -5.5d,
+	y: -6.0d,
+	description: "Blaze it",
+	text: [
+		"Hemp is used in both mechanical and industrial manufacturing. Getting hemp seeds requires tilling soil with a hoe. Hemp can be harvested by right clicking."
+	],
+	tasks: [{
+		uid: "2a26d056",
+		type: "item",
+		items: [{
+			item: "betterwithmods:material 1 2"
+		}],
+		count: 10L
+	}]
+}

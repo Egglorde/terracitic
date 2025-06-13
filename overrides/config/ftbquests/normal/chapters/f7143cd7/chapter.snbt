@@ -2,5 +2,5 @@
 	title: "¯\\_(ツ)_/¯",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 }

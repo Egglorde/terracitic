@@ -1,0 +1,19 @@
+{
+	title: "Demon Summoning V",
+	x: -3.5d,
+	y: 4.0d,
+	description: "Evil incarnate",
+	text: [
+		"Deep within the bowles of hell lie demons who may only be summoned to earth with a soulkey and appropriate effogy. They hold demon soulstones, which will allow you to imprison a demon to your command."
+	],
+	dependencies: [
+		"2387c0fb"
+	],
+	tasks: [{
+		uid: "c450cf19",
+		type: "item",
+		items: [{
+			item: "lycanitesmobs:soulstone_demon"
+		}]
+	}]
+}

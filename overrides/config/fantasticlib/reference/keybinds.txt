@@ -109,9 +109,6 @@ key.mount.inventory
 key.pets
 key.summoning
 
-key.categories.musictriggers
-key.musictriggers.gui
-
 OreExcavation
 oreexcavation.key.excavate
 oreexcavation.key.shape

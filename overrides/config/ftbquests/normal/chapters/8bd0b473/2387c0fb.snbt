@@ -1,0 +1,27 @@
+{
+	title: "Demon Summoning IV",
+	icon: "lycanitesmobs:demoncrystal",
+	x: -3.5d,
+	y: 3.0d,
+	description: "Message of the Archvile",
+	text: [
+		"Apollyons act as the high lords of hell, ruling over vast armies of demons. They hold powerful artifacts from the depths of hell, such as Ardite and Brimstone, used in the creation of the Hellforge."
+	],
+	dependencies: [
+		"56e20df3"
+	],
+	tasks: [{
+		uid: "e4f16ad4",
+		type: "kill",
+		icon: {
+			id: "lycanitesmobs:demonspawn",
+			tag: {
+				CreatureInfoSpawnEgg: {
+					creaturename: "archvile"
+				}
+			}
+		},
+		entity: "lycanitesmobs:archvile",
+		value: 1L
+	}]
+}

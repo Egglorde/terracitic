@@ -1,0 +1,41 @@
+{
+	title: "Demon Summoning III",
+	icon: "lycanitesmobs:demoncrystal",
+	x: -3.5d,
+	y: 1.5d,
+	description: "Countdown to Death",
+	text: [
+		"The Afrit is a class of imp often used as a herald for Apollyons, while Vorachs are often used as their assassins. Defeating these demons will allow you to face the Apollyon."
+	],
+	dependencies: [
+		"d618b647"
+	],
+	tasks: [{
+		uid: "88f337d1",
+		type: "kill",
+		icon: {
+			id: "lycanitesmobs:impspawn",
+			tag: {
+				CreatureInfoSpawnEgg: {
+					creaturename: "afrit"
+				}
+			}
+		},
+		entity: "lycanitesmobs:afrit",
+		value: 1L
+	},
+	{
+		uid: "9c98e0f8",
+		type: "kill",
+		icon: {
+			id: "lycanitesmobs:demonspawn",
+			tag: {
+				CreatureInfoSpawnEgg: {
+					creaturename: "vorach"
+				}
+			}
+		},
+		entity: "lycanitesmobs:vorach",
+		value: 1L
+	}]
+}

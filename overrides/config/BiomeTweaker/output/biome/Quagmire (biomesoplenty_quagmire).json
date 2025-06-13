@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DEAD",
-    "WET",
+    "WASTELAND",
     "SWAMP",
-    "WASTELAND"
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -81,6 +81,12 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.jamieswhiteshirt.trumpetskeleton.common.entity.EntityTrumpetSkeleton",
+      "Weight": 25,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityDepthsGhoul",

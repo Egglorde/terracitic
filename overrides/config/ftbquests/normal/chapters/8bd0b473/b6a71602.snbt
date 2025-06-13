@@ -1,0 +1,60 @@
+{
+	title: "Rifle",
+	icon: {
+		id: "immersiveintelligence:rifle",
+		tag: {
+			handmade: 1b
+		},
+		ForgeCaps: {
+			Parent: {
+				Items: [],
+				Size: 1
+			}
+		}
+	},
+	x: -1.0d,
+	y: -0.5d,
+	description: "The tools of the trade",
+	text: [
+		"A powerful earlygame offensive weapon. It deals more damage than the revolver, but only holds 4 bullets. Beware that the handmade rifle is quite loud, and it will attract nearby hostile mobs."
+	],
+	dependencies: [
+		"83e17571"
+	],
+	tasks: [{
+		uid: "cc92b7af",
+		type: "item",
+		items: [{
+			id: "immersiveintelligence:rifle",
+			tag: {
+				handmade: 1b
+			},
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 2
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "edfa96b3",
+		type: "item",
+		items: [{
+			id: "immersiveintelligence:bullet_mg_2bcal",
+			tag: {
+				core: "core_lead",
+				core_type: "softpoint",
+				components: [],
+				component_nbt: [],
+				display: {
+					Name: "Soft Point Rifle Ammo"
+				},
+				fuse: "contact"
+			}
+		}],
+		count: 8L
+	}]
+}

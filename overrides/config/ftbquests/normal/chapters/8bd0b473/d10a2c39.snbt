@@ -1,0 +1,28 @@
+{
+	title: "Press",
+	icon: "hbm:machine_press",
+	x: -2.0d,
+	y: -2.5d,
+	text: [
+		"The press is nessecary for making paper. A press will require a mold or stamp in order to produce products. You will need different molds to produce wires and plates."
+	],
+	dependencies: [
+		"fe67fef7"
+	],
+	tasks: [{
+		uid: "6c0fa06b",
+		type: "item",
+		items: [{
+			item: "hbm:machine_press"
+		}]
+	},
+	{
+		uid: "d917bce6",
+		type: "item",
+		items: [{
+			item: "hbm:stamp_desh_flat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

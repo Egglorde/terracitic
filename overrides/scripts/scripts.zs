@@ -13,6 +13,9 @@ import crafttweaker.damage.IDamageSource;
 import crafttweaker.util.IRandom;
 import crafttweaker.world.IWorld;
 import crafttweaker.item.IItemStack;
+import loottweaker.LootTweaker;
+import loottweaker.LootTable;
+import loottweaker.LootPool;
 
 var KebabMod = crafttweaker.entity.AttributeModifier.createModifier("generic.maxHealth", 20, 0, "d71169e7-a58b-4046-8b13-c3e93d9b5a64");
 var SandwhichMod = crafttweaker.entity.AttributeModifier.createModifier("generic.maxHealth", 40, 0, "582a448e-20b9-41fd-a57d-5a4e0d6795ec");
@@ -29,6 +32,7 @@ val IgnoreGrav = [
     "lycanitesmobs:aegis",
     "lycanitesmobs:sylph"
 ] as string[];
+
 val Sentients = {
     <srparasites:weapon_scythe_sentient> : [
         //Intro Quotes
@@ -76,8 +80,13 @@ val ChattyItems = [
     <srparasites:weapon_axe_sentient>
 ] as IItemStack[];
 
-
-
+val fish = LootTweaker.getTable("betterwithmods:gameplay/fishing/fish");
+val poolfish = fish.getPool("betterwithmods:gameplay/fishing/fish");
+poolfish.addItemEntry(<abyssalcraft:mre>, 1);
+poolfish.addItemEntry(<rats:plague_leech>, 5);
+val junk = LootTweaker.getTable("betterwithmods:gameplay/fishing/junk");
+val pooljunk = junk.getPool("betterwithmods:gameplay/fishing/junk");
+pooljunk.addItemEntry(<hbm:can_empty>, 10);
 
 events.onEntityLivingUseItemFinish(
     function(event as crafttweaker.event.EntityLivingUseItemEvent.Finish){

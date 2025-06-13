@@ -1,3 +1,24 @@
+Version 0.3.6a
+
+Added
+> Trupet Skeleton
+> Potion stew cauldron recipes
+> Plauge cauldron recipes
+> Rudimentary quest system for the First chapter
+
+Removed
+> Vanilla cauldron recipe
+
+Changes
+> Modified fishing loot tables
+
+Fixes
+> Fixed issue with Afrit drops not working
+> Fixed an conflict involving Harvest Tweaks, Tinker's Construct, and HC Strata
+> Updated version number on modpack list
+> Fixed hibachi recipe
+> Fixed issue related to tinker's tools not being able to mine through lower strata
+
 Version 0.3.5
 
 Added

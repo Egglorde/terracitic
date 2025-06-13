@@ -1,0 +1,29 @@
+{
+	title: "Tinker's Forging",
+	icon: "tinkersforging:tinkers_anvil/iron",
+	x: -4.0d,
+	y: -6.5d,
+	description: "While the iron is hot...",
+	text: [
+		"In order to create iron armor and tools, you'll need an anvil. Ingots must be heated in the forge before using the anvil to shape them into the desired item. The forge must be lighted using a Flint and Steel."
+	],
+	tasks: [{
+		uid: "fac743ee",
+		type: "item",
+		items: [{
+			item: "tinkersforging:tinkers_anvil/iron"
+		}]
+	},
+	{
+		uid: "3d576d5b",
+		type: "item",
+		items: [{
+			item: "tinkersforging:forge"
+		}]
+	}],
+	rewards: [{
+		uid: "9668776a",
+		type: "item",
+		item: "tinkersforging:hammer/stone"
+	}]
+}

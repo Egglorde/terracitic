@@ -14,7 +14,10 @@ val steelblock = <ore:blockSteel>;
 steelblock.add(<betterwithmods:steel_block>);
 val steelplate = <ore:plateSteel>;
 steelplate.add(<betterwithmods:material:51>);
+val fabric = <ore:fabricHemp>;
+fabric.add(<hbm:rag>);
 
+recipes.removeShaped(<immersiveengineering:wooden_decoration>, [[<immersiveengineering:treated_wood>,<immersiveengineering:material>,<immersiveengineering:treated_wood>],[<immersiveengineering:treated_wood>,<immersiveengineering:material>,<immersiveengineering:treated_wood>]]);
 
 recipes.addShapeless(<hbm:powder_neodymium_tiny>, [<immersiveengineering:tool>.anyDamage().reuse(), <hbm:fragment_neodymium>]);
 recipes.addShapeless(<hbm:powder_boron_tiny>, [<immersiveengineering:tool>.anyDamage().reuse(), <hbm:fragment_boron>]);
@@ -49,8 +52,10 @@ mods.tconstruct.Casting.removeTableRecipe(<libvulpes:productgear:6>);
 mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:storage:8>);
 mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:8>);
 mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:28>);
+// Cheese removal
+mods.tconstruct.Casting.removeBasinRecipe(<rats:block_of_cheese>);
 //       Soulsteel casting insertion
-mods.tconstruct.Casting.addBasinRecipe(<betterwithmods:steel_block>, <>, <liquid:steel>, 2304);
+mods.tconstruct.Casting.addBasinRecipe(<betterwithmods:steel_block>, null, <liquid:steel>, 2304);
 mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:51>, <tconstruct:cast_custom:3>, <liquid:steel>, 144);
 mods.tconstruct.Casting.addTableRecipe(<hbm:meteorite_sword_seared>, <hbm:meteorite_sword>, <liquid:stone>, 1440);
 mods.tconstruct.Casting.addTableRecipe(<betterwithmods:material:48>, <tconstruct:cast_custom:4>, <liquid:steel>, 576);
@@ -108,6 +113,7 @@ recipes.addShapeless("glowstonedust",<minecraft:glowstone_dust>,[<hbm:powder_the
 recipes.addShapeless("firecharge",<minecraft:fire_charge>,[<betterwithmods:material:16>, <minecraft:blaze_powder>]);
 recipes.addShapeless("infernalcoal",<hbm:coal_infernal>,[<hbm:coke>, <minecraft:fire_charge>]);
 recipes.addShapeless("bonedupe",<tconstruct:materials:17>,[<quark:black_ash>, <minecraft:bone>]);
+recipes.addShapeless("artistrap",<betterwithmods:material:8>*4,[<immersiveintelligence:material:27>, <minecraft:shears>.reuse()]);
 
 // Coke, redone!
 mods.immersiveengineering.CokeOven.addRecipe(<hbm:coke>, 500, <minecraft:coal>, 2000);
@@ -204,6 +210,16 @@ mods.immersiveengineering.MetalPress.addRecipe(<tconstruct:spaghetti>, <betterwi
 recipes.remove(<srpmeshi:rupter_ramen>);
 mods.ntm.Press.addRecipe(<tconstruct:spaghetti>,<betterwithmods:raw_pastry:3>, 3);
 mods.betterwithmods.Cauldron.addUnstoked([<tconstruct:moms_spaghetti>, <srparasites:lurecomponent1>, <minecraft:bowl>, <ore:stickWood>*2, <ore:meatPork>, <tconstruct:edible:3>, <ore:egg>], [<srpmeshi:rupter_ramen>]);
+// Potion stews recipes
+mods.betterwithmods.Cauldron.addUnstoked([<ore:mushroomAny>*3, <minecraft:bowl>, <minecraft:milk_bucket>, <futuremc:cornflower>], [<futuremc:suspicious_stew>.withTag({CustomPotionEffects: [{CurativeItems: [{id: "minecraft:milk_bucket", Count: 1 as byte, Damage: 0 as short}], Ambient: 0 as byte, ShowParticles: 1 as byte, Duration: 100, Id: 8 as byte, Amplifier: 1 as byte}]})]);
+mods.betterwithmods.Cauldron.addUnstoked([<ore:mushroomAny>*3, <minecraft:bowl>, <minecraft:milk_bucket>, <futuremc:lily_of_the_valley>], [<futuremc:suspicious_stew>.withTag({CustomPotionEffects: [{CurativeItems: [{id: "minecraft:milk_bucket", Count: 1 as byte, Damage: 0 as short}], Ambient: 0 as byte, ShowParticles: 1 as byte, Duration: 100, Id: 19 as byte, Amplifier: 1 as byte}]})]);
+mods.betterwithmods.Cauldron.addUnstoked([<ore:mushroomAny>*3, <minecraft:bowl>, <minecraft:milk_bucket>, <minecraft:red_flower:1>], [<futuremc:suspicious_stew>.withTag({CustomPotionEffects: [{CurativeItems: [{id: "minecraft:milk_bucket", Count: 1 as byte, Damage: 0 as short}], Ambient: 0 as byte, ShowParticles: 1 as byte, Duration: 100, Id: 23 as byte, Amplifier: 1 as byte}]})]);
+mods.betterwithmods.Cauldron.addUnstoked([<ore:mushroomAny>*3, <minecraft:bowl>, <minecraft:milk_bucket>, <futuremc:wither_rose>], [<futuremc:suspicious_stew>.withTag({CustomPotionEffects: [{CurativeItems: [{id: "minecraft:milk_bucket", Count: 1 as byte, Damage: 0 as short}], Ambient: 0 as byte, ShowParticles: 1 as byte, Duration: 100, Id: 20 as byte, Amplifier: 1 as byte}]})]);
+mods.betterwithmods.Cauldron.addUnstoked([<ore:mushroomAny>*3, <minecraft:bowl>, <minecraft:milk_bucket>, <minecraft:yellow_flower>], [<futuremc:suspicious_stew>.withTag({CustomPotionEffects: [{CurativeItems: [{id: "minecraft:milk_bucket", Count: 1 as byte, Damage: 0 as short}], Ambient: 0 as byte, ShowParticles: 1 as byte, Duration: 100, Id: 23 as byte, Amplifier: 1 as byte}]})]);
+mods.betterwithmods.Cauldron.addUnstoked([<ore:mushroomAny>*3, <minecraft:bowl>, <minecraft:milk_bucket>, <srparasites:lurecomponent1>], [<futuremc:suspicious_stew>.withTag({CustomPotionEffects: [{CurativeItems: [{id: "minecraft:milk_bucket", Count: 1 as byte, Damage: 0 as short}], Ambient: 0 as byte, ShowParticles: 1 as byte, Duration: 100, Id: 70 as byte, Amplifier: 1 as byte}]})]);
+// Plauge cauldron recipes
+mods.betterwithmods.Cauldron.addUnstoked([<quark:sugar_block>], [<rats:treacle>]);
+mods.betterwithmods.Cauldron.addUnstoked([<rats:treacle>, <rats:herb_bundle>, <rats:plague_leech>], [<rats:plague_stew>]);
 // Blood thing
 mods.tconstruct.Casting.addTableRecipe(<hbm:iv_blood>, <hbm:iv_empty>, <liquid:blood>, 250);
 

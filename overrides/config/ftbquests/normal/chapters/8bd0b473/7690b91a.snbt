@@ -1,6 +1,15 @@
 {
-	x: -1.0d,
-	y: 0.0d,
+	title: "Necronomicon",
+	x: -3.5d,
+	y: -2.5d,
+	description: "Legend has it that it was wirtten by the dark ones...",
+	text: [
+		"The necronomicon is required for the summoning of demons and the acquisition steel. The Necronomicon will require you to kill a primitive parasite in order to craft it."
+	],
+	dependencies: [
+		"ada73e8b",
+		"d10a2c39"
+	],
 	tasks: [{
 		uid: "9c9ae601",
 		type: "item",

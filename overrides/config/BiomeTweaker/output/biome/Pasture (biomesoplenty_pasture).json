@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SPARSE",
     "DRY",
-    "PLAINS",
-    "SPARSE"
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -92,6 +92,12 @@
       "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
       "Weight": 10,
       "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.jamieswhiteshirt.trumpetskeleton.common.entity.EntityTrumpetSkeleton",
+      "Weight": 25,
+      "Min Group Count": 4,
       "Max Group Count": 4
     },
     {

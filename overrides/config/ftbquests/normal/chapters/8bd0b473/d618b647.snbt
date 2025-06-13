@@ -1,0 +1,55 @@
+{
+	title: "Demon Summoning II",
+	icon: "lycanitesmobs:demoncrystal",
+	x: -3.5d,
+	y: 0.0d,
+	description: "Demons on the prey",
+	text: [
+		"With parts from lesser demons, greater demons may be summoned to the overworld. Greater demons contain the components for steel within them."
+	],
+	dependencies: [
+		"6c4ff9c2"
+	],
+	tasks: [{
+		uid: "738e123a",
+		type: "kill",
+		icon: {
+			id: "lycanitesmobs:demonspawn",
+			tag: {
+				CreatureInfoSpawnEgg: {
+					creaturename: "pinky"
+				}
+			}
+		},
+		entity: "lycanitesmobs:pinky",
+		value: 1L
+	},
+	{
+		uid: "071ee5f4",
+		type: "kill",
+		icon: {
+			id: "lycanitesmobs:demonspawn",
+			tag: {
+				CreatureInfoSpawnEgg: {
+					creaturename: "cacodemon"
+				}
+			}
+		},
+		entity: "lycanitesmobs:cacodemon",
+		value: 1L
+	},
+	{
+		uid: "c6730644",
+		type: "kill",
+		icon: {
+			id: "lycanitesmobs:demonspawn",
+			tag: {
+				CreatureInfoSpawnEgg: {
+					creaturename: "behemoth"
+				}
+			}
+		},
+		entity: "lycanitesmobs:behemoth",
+		value: 1L
+	}]
+}

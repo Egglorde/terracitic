@@ -1,0 +1,19 @@
+{
+	title: "Steel anvil",
+	x: -5.0d,
+	y: 1.5d,
+	description: "Not to be confused with steel anvil",
+	text: [
+		"The steel anvil is capable of crafting in a 4x4 grid."
+	],
+	dependencies: [
+		"14d9d335"
+	],
+	tasks: [{
+		uid: "b608fc45",
+		type: "item",
+		items: [{
+			item: "betterwithmods:steel_anvil"
+		}]
+	}]
+}

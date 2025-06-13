@@ -85,7 +85,7 @@
   "dungeonLevel": 1,
   "drops": [
     {
-      "item": "<hbm:powder_fire>",
+      "item": "hbm:powder_fire",
       "minAmount": 1,
       "maxAmount": 3,
       "chance": 1

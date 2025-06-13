@@ -1,0 +1,20 @@
+{
+	title: "Hammer",
+	x: -0.5d,
+	y: -3.5d,
+	description: "Hammertime",
+	text: [
+		"The hammer is used in the creation of immersive multiblocks. For now, this will only consist of furnaces, such as the Alloy Kiln and Coke Furnace. The hammer can also be used to pulverize ore into grit, allowing it to be smelted faster."
+	],
+	dependencies: [
+		"86562470"
+	],
+	tasks: [{
+		uid: "a67cda8f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Steel",
+	x: -6.0d,
+	y: 0.75d,
+	text: [
+		"Soulforged steel is the primary item used in industrial multiblocks. You'll have to figure out how to make them yourself, bc I haven't written the rest of the quests yet. You can use projectors to build them if needed."
+	],
+	dependencies: [
+		"db53f556",
+		"d618b647"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "59bb800b",
+		type: "item",
+		items: [{
+			id: "betterwithmods:material",
+			Damage: 14s,
+			ForgeCaps: {
+				"tinkersforging:forge_item": {
+					work: 75,
+					steps: {
+						last: -1,
+						second: -1,
+						third: -1
+					},
+					temp: 0.0f,
+					tick: -1L
+				}
+			}
+		}]
+	}]
+}

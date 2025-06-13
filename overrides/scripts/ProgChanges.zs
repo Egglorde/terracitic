@@ -96,7 +96,8 @@ var RemoveCraft = [
   <lycanitesmobs:soulkey>,
   <immersiveengineering:stone_decoration:1>,
   <lycanitesmobs:soulkey>,
-  <quark:soul_powder>
+  <quark:soul_powder>,
+  <minecraft:cauldron>
 ] as IIngredient[];
 
 var BloodInputs = {
@@ -259,10 +260,15 @@ var RocketryCrafts = {
     [<minecraft:stonebrick>, <ore:blockRedstone>, <minecraft:stonebrick>],
     [<minecraft:stonebrick>, <ore:blockCopper>, <minecraft:stonebrick>]] : 
     <minecraft:piston>,
-    [
-    [<ore:stickSteel>, <ore:hideBelt>, <ore:stickSteel>],
+    [[<ore:stickSteel>, <ore:hideBelt>, <ore:stickSteel>],
     [<ore:gearSoulforgedSteel>, <ore:plateSteel>, <ore:gearSoulforgedSteel>]] : 
-    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}),
+    [[<minecraft:fire_charge>,<minecraft:fire_charge>,<minecraft:fire_charge>],
+    [<minecraft:nether_brick>,<minecraft:nether_brick>,<minecraft:nether_brick>],
+    [<futuremc:smooth_stone>,<futuremc:smooth_stone>,<futuremc:smooth_stone>]] : 
+    <betterwithmods:hibachi>,
+    [[<ore:flower>, <ore:flower>, <ore:flower>],[<ore:flower>, <ore:flower>, <ore:flower>],[<ore:flower>,<ore:flower>,<ore:flower>]] : <rats:herb_bundle>,
+    [[<minecraft:glass_bottle>, <ore:fabricHemp>],[<forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}), <minecraft:flint_and_steel>.anyDamage().reuse()]] : <hbm:grenade_gascan>
 } as IItemStack[IIngredient[][]];
     
 var MetalTypes = [

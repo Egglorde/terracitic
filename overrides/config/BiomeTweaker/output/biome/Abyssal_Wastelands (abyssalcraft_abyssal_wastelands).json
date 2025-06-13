@@ -62,6 +62,12 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "com.jamieswhiteshirt.trumpetskeleton.common.entity.EntityTrumpetSkeleton",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
       "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityLesserShoggoth",
       "Weight": 3,
       "Min Group Count": 1,

@@ -1,0 +1,65 @@
+{
+	title: "Revolver",
+	icon: {
+		id: "immersiveengineering:revolver",
+		tag: {
+			bullets: []
+		},
+		ForgeCaps: {
+			Parent: {
+				Items: [],
+				Size: 21
+			}
+		}
+	},
+	x: -0.5d,
+	y: -1.5d,
+	description: "It's high noon...",
+	text: [
+		"The revolver is a powerful weapon for self defense. It must be manually loaded by crouching and left clicking. The Soulace corporation has lovingly provided you with a speedloader to reduce the time you spend reloading."
+	],
+	dependencies: [
+		"4279d454",
+		"a81e3b88"
+	],
+	tasks: [{
+		uid: "48ebff56",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:revolver",
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 21
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a2e43601",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:bullet",
+			Damage: 2s,
+			tag: {
+				bullet: "casull"
+			}
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "6e7b3c80",
+		type: "item",
+		item: {
+			id: "immersiveengineering:speedloader",
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 8
+				}
+			}
+		}
+	}]
+}

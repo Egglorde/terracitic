@@ -1,0 +1,41 @@
+{
+	title: "Demon Summoning I",
+	icon: "lycanitesmobs:demoncrystal",
+	x: -3.5d,
+	y: -1.0d,
+	description: "At doom's gate",
+	text: [
+		"All steel production requires pieces of demons in order to work. However the demons you are able to summon now lack such parts. Killing them howeve, will unlock new rituals and summons to face."
+	],
+	dependencies: [
+		"7690b91a"
+	],
+	tasks: [{
+		uid: "5b5c69d5",
+		type: "kill",
+		icon: {
+			id: "lycanitesmobs:elementalspawn",
+			tag: {
+				CreatureInfoSpawnEgg: {
+					creaturename: "wraith"
+				}
+			}
+		},
+		entity: "srparasites:wraith",
+		value: 1L
+	},
+	{
+		uid: "01c50a1d",
+		type: "kill",
+		icon: {
+			id: "lycanitesmobs:demonspawn",
+			tag: {
+				CreatureInfoSpawnEgg: {
+					creaturename: "belph"
+				}
+			}
+		},
+		entity: "lycanitesmobs:belph",
+		value: 1L
+	}]
+}

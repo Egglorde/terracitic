@@ -1,0 +1,22 @@
+{
+	title: "Obsidian shards",
+	x: -1.5d,
+	y: -3.5d,
+	text: [
+		"Obsidian shards can be obtained from obsidian broken with an iron pickaxe. Obsidian shards are used to create obsidian weapons which can mine basalt, used to create the smeltery."
+	],
+	dependencies: [
+		"86562470"
+	],
+	tasks: [{
+		uid: "6fb841e4",
+		type: "item",
+		items: [{
+			id: "tconstruct:shard",
+			tag: {
+				Material: "obsidian"
+			}
+		}],
+		count: 10L
+	}]
+}

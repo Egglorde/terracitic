@@ -1,0 +1,13 @@
+{
+	title: "Dev note",
+	x: -1.0d,
+	y: -6.0d,
+	text: [
+		"Beware that these quests are incredibly incomplete. If you encounter any issues, please point them out in the github issues section! Thank you for playing!"
+	],
+	tasks: [{
+		uid: "44649a17",
+		type: "checkmark",
+		title: "Dev note"
+	}]
+}

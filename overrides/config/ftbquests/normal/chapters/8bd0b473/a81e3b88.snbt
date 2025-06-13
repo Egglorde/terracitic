@@ -1,0 +1,30 @@
+{
+	title: "Pressing matters",
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"In order to use the press properly you will need to make several press molds, using blueprints in the Engineer's workbench."
+	],
+	dependencies: [
+		"4279d454",
+		"d10a2c39"
+	],
+	tasks: [{
+		uid: "f4ac5ec7",
+		type: "item",
+		items: [{
+			item: "hbm:stamp_desh_plate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "365c55d9",
+		type: "item",
+		items: [{
+			item: "hbm:stamp_desh_wire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

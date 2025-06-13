@@ -1,0 +1,24 @@
+{
+	title: "Creosote oil",
+	x: 0.0d,
+	y: -2.5d,
+	text: [
+		"Creosote is created as a byproduct in the production of coal coke. It is used to create treated wood, used for various mechanical occupations."
+	],
+	dependencies: [
+		"4ebabc46"
+	],
+	tasks: [{
+		uid: "2ee8046c",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "creosote",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

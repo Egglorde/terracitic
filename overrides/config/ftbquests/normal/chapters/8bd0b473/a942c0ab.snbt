@@ -1,0 +1,35 @@
+{
+	title: "Mechanical power",
+	icon: "betterwithmods:material",
+	x: -4.5d,
+	y: -5.5d,
+	shape: "gear",
+	description: "We have Create at home",
+	text: [
+		"Mechanical power is a special type of power provided by windmills and transported through axles and gearboxes. Make sure to give windmills enough space to turn in order to power your machines."
+	],
+	dependencies: [
+		"39c49d6c",
+		"d94036bd"
+	],
+	tasks: [{
+		uid: "200f2965",
+		type: "item",
+		items: [{
+			item: "betterwithmods:wooden_axle"
+		}],
+		count: 5L
+	},
+	{
+		uid: "d4fb8cf9",
+		type: "item",
+		items: [{
+			item: "betterwithmods:axle_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "335e6fc5",
+		type: "item",
+		item: "betterwithmods:wooden_gearbox"
+	}]
+}

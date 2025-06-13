@@ -1,0 +1,19 @@
+{
+	title: "The Hellforge",
+	x: -5.0d,
+	y: 3.0d,
+	description: "Burning Hatred",
+	text: [
+		"An industrial method of producing steel. If you plan on making any large amounts of steel or multiblocks, you will need this multiblock"
+	],
+	dependencies: [
+		"2387c0fb",
+		"bad53e25"
+	],
+	tasks: [{
+		uid: "6f3e05f7",
+		type: "advancement",
+		advancement: "immersiveengineering:main/multiblock_blastfurnace",
+		criterion: ""
+	}]
+}
